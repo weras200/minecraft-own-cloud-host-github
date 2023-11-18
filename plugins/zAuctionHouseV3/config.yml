@@ -1,0 +1,36 @@
+customInventories:
+
+
+#Monde d�sactiv�
+disableWorlds:
+  - pisunbobra
+  
+bannedItems: 
+    
+bannedItemsWithMaterial:
+  - BEDROCK    
+    
+permissions:
+  zauctionhouse_max_3: 3
+  zauctionhouse_max_6: 6
+  zauctionhouse_max_7: 7
+  zauctionhouse_max_8: 8
+  zauctionhouse_max_10: 10
+  zauctionhouse_max_12: 12
+  zauctionhouse_max_16: 16
+  zauctionhouse_max_18: 18
+  zauctionhouse_max_25: 25
+  zauctionhouse_max_250: 250
+  
+#SQL
+sql:
+  user: "homestead"
+  password: "secret"
+  port: 3306
+  host: "192.168.10.10"
+  database: "zauctionhouse" 
+  
+citizen:
+  1:
+    name: "Auction"
+    inventory: "auction"  

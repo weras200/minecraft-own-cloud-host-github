@@ -1,0 +1,52 @@
+location: spawn:1108,433:149,000:-344,498
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#6600d6&#6600d6♮ &fТоп людей по убийствам &#6600d6&#6600d6♮'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&#6600d6#&#6600d61 &7| %ajlb_lb_statistic_player_kills_1_alltime_prefix%&f%ajlb_lb_statistic_player_kills_1_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_1_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d62 &7| %ajlb_lb_statistic_player_kills_2_alltime_prefix%&f%ajlb_lb_statistic_player_kills_2_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_2_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d63 &7| %ajlb_lb_statistic_player_kills_3_alltime_prefix%&f%ajlb_lb_statistic_player_kills_3_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_3_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d64 &7| %ajlb_lb_statistic_player_kills_4_alltime_prefix%&f%ajlb_lb_statistic_player_kills_4_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_4_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d65 &7| %ajlb_lb_statistic_player_kills_5_alltime_prefix%&f%ajlb_lb_statistic_player_kills_5_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_5_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d66 &7| %ajlb_lb_statistic_player_kills_6_alltime_prefix%&f%ajlb_lb_statistic_player_kills_6_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_6_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d67 &7| %ajlb_lb_statistic_player_kills_7_alltime_prefix%&f%ajlb_lb_statistic_player_kills_7_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_7_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d68 &7| %ajlb_lb_statistic_player_kills_8_alltime_prefix%&f%ajlb_lb_statistic_player_kills_8_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_8_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d69 &7| %ajlb_lb_statistic_player_kills_9_alltime_prefix%&f%ajlb_lb_statistic_player_kills_9_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_9_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&#6600d6#&#6600d610 &7| %ajlb_lb_statistic_player_kills_10_alltime_prefix%&f%ajlb_lb_statistic_player_kills_10_alltime_name%
+      &7- &f%ajlb_lb_statistic_player_kills_10_alltime_value%&7⚔'
+    height: 0.3
+  - content: '&7'
+    height: 0.3
+  - content: '&fВ конце вайпа топ &c3&f получат'
+    height: 0.3
+  - content: '&fнаграды в виде осколков!'
+    height: 0.3
+  - content: '#ICON: iron_sword'
+    height: 0.6
+  actions: {}

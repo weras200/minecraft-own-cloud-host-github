@@ -1,0 +1,77 @@
+menu-title: 'Награды'
+menu-rows: 5
+draw-past-max-tier: true # Whether the stained glass in the middle of the page will go past the max tier in the menu.
+hide-tiers-without-rewards: false # If set to true, tiers that are defined but have no associated rewards will be hidden.
+close-on-reward-claim: false # If set to true, the menu will be closed when a reward is claimed
+
+free-reward-slots:
+  slots: '0...8' # Feel free to just use slot, slot, slot such as 0, 1, 2 instead if it's easier.
+
+premium-reward-slots:
+  slots: '18...26'
+
+progress-track-slots:
+  slots: '9...17'
+
+menu:
+  '39':
+    item:
+      material: lime_dye
+      name: '&6◀ &fПредыдущая страница'
+      lore:
+       - ' '
+    actions:
+      - '[menu] {previous-page}' # If their page is not 1, take them to the previous page
+  '40':
+    item:
+     material: book
+     name: '&6Полезная информация'
+     lore:
+      - '&6&n▍&r &fСистема квестов - набор заданий, который'
+      - '&6&n▍&r &fраспределён по неделям, и генерируется'
+      - '&6&n▍&r &fабсолютно случайно для каждого игрока.'
+      - '&6&n▍&r &fКаждая неделя квестов распределена на темы'
+      - '&6▍&r &fи каждый квест, сложнее предедущего.'
+      - ''
+      - '&6&n▍&r &fЗа каждый пройденый квест, Вам начисляется'  
+      - '&6&n▍&r &fособое количество очков, за которые'
+      - '&6&n▍&r &fВы можете получить обычную награду,'
+      - '&6&n▍&r &fкоторая ценнее с каждым последним'
+      - '&6&n▍&r &fуровнем. Если Вы являетесь обладателем'
+      - '&6&n▍&r &fБоевого Пропуска, то Вам в дополнение'
+      - '&6&n▍&r &fк обычным наградам становится доступной'
+      - '&6▍&r &fлинейка &6особых наград.'
+      - ''
+      - '&6&n▍&r &fТаким образом, при наличии Боевого'
+      - '&6&n▍&r &fПропуска, выполняя квесты,'
+      - '&6&n▍&r &fВы получаете сразу две награды двух'
+      - '&6&n▍&r &fразных видов. В любое время Вы можете'
+      - '&6&n▍&r &fприобрести Боевой Пропуск и сразу же'
+      - '&6&n▍&r &fполучить &6все награды уже заранее'
+      - '&6▍&r &fза все пройденные уровни'
+        
+    actions: []
+  '41':
+    item:
+      material: lime_dye
+      name: '&fСледующая страница &6▶'
+      lore: 
+       - ' '
+    actions:
+      - '[menu] {next-page}'
+  '36':
+    item:
+      material: arrow:0
+      name: '&6◀&f Выйти'
+      lore: 
+       - ' '
+    actions:
+      - '[menu] {portal}'
+
+static-items:
+  progress-track-locked-item:
+    material: 'gray_stained_glass_pane'
+    name: '&fУровень &6%tier%'
+  progress-track-unlocked-item:
+    material: 'pink_stained_glass_pane'
+    name: '&fУровень &6%tier%'

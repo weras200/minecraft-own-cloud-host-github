@@ -1,0 +1,171 @@
+quests:
+  1: # Quest id
+    name: 'Неделя 5 - Начало охоты!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: zombie # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 1500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: zombie_head:0
+      amount: 1
+      name: '&6Начало охоты!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f зомби!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Неделя 5 - Эй, Костян!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: skeleton # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 1600 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: skeleton_skull:0
+      amount: 1
+      name: '&6Эй, Костян!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f скелетов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Неделя 5 - Огурец!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: creeper # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 1800 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: creeper_head:0
+      amount: 1
+      name: '&6Огурец!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f криперов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Неделя 5 - Дылда!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: enderman # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 2300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA5ZjFkZTYxMzVmNGJlYTc4MWM1YThlMGQ2MTA5NWY4MzNlZTI2ODVkODE1NGVjZWE4MTRlZTZkMzI4YTVjNiJ9fX0=
+      amount: 1
+      name: '&6Дылда!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f эндерменов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Неделя 5 - АЙ, Печёт!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: blaze # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 2800 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwNjU3ZTI0YjU2ZTFiMmY4ZmMyMTlkYTFkZTc4OGMwYzI0ZjM2Mzg4YjFhNDA5ZDBjZDJkOGRiYTQ0YWEzYiJ9fX0=
+      amount: 1
+      name: '&6АЙ, Печёт!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f ифритов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  6:
+    name: 'Неделя 5 - Гаси его!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: ghast # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 3500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0=
+      amount: 1
+      name: '&6Гаси его!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f гастов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  7:
+    name: 'Неделя 5 - Паучок дружок' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: spider # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 4000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlMjQ4ZGEyZTEwOGYwOTgxM2E2Yjg0OGEwZmNlZjExMTMwMDk3ODE4MGVkYTQxZDNkMWE3YThlNGRiYTNjMyJ9fX0=
+      amount: 1
+      name: '&6Паучок дружок'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f пауков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  8:
+    name: 'Неделя 5 - Ты что не...' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: wither_skeleton # The block the player must break.
+    required-progress: 300 # The amount of times the player should break the coal ore block.
+    points: 4500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: wither_skeleton_skull
+      amount: 1
+      name: '&6Ты что не...!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6300&f визер скелетов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  9:
+    name: 'Неделя 5 - Ты свиня или наркоман?!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: zoglin # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 4000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M4YzdjNWQwNTU2Y2Q2NjI5NzE2ZTM5MTg4YjIxZTdjMDQ3NzQ3OWYyNDI1ODdiZjE5ZTBiYzc2YjMyMjU1MSJ9fX0=
+      amount: 1
+      name: '&6Ты свиня или наркоман?!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f зоглинов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  10:
+    name: 'Неделя 5 - Типо бандит?!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: pillager # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 5000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYjgwYTZiNjgzM2UzMWQ5Y2U4MzEzYTU0Nzc3NjQ1ZjljMWU1NWI4MTA5MThhNzA2ZTdiY2M4ZDM1YTVhMiJ9fX0=
+      amount: 1
+      name: '&6Типо бандит?!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6200&f разбойников!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''

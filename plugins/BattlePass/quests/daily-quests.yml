@@ -1,0 +1,87 @@
+quests:
+  1: # Quest id
+    name: 'Ежедневно - Актив или пасив?' # The name given to the quest.
+    type: playtime # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 3600 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: clock:0
+      amount: 1
+      name: '&6Актив или пасив?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f отыграть &61&f час!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Ежедневно - Пора двигаться!' # The name given to the quest.
+    type: move # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 5000 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: feather:0
+      amount: 1
+      name: '&6Пора двигаться!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f преодолеть &65000&f блоков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Ежедневно - Убивать убивать убивать!' # The name given to the quest.
+    type: kill-player # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 5 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: diamond_sword:0
+      amount: 1
+      name: '&6Убивать убивать убивать!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &65&f игроков!'
+        - '&7(В ИГРЕ!!!)'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Ежедневно - Зомбик!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: zombie # The block the player must break.
+    required-progress: 50 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: zombie_head:0
+      amount: 1
+      name: '&6Зомбик!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &650&f зомби!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Ежедневно - Костя!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: skeleton # The block the player must break.
+    required-progress: 50 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: skeleton_skull:0
+      amount: 1
+      name: '&6Костя!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &650&f скелетов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''

@@ -1,0 +1,45 @@
+Sounds:
+  Enabled: false
+  ProtocolLibSound: false
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
+Titles:
+  Enabled: true
+  NoDelay:
+    Title: '&x&6&6&0&0&d&6Т&x&6&a&0&4&d&aе&x&6&e&0&9&d&dл&x&7&2&0&d&e&1е&x&7&6&1&2&e&5п&x&7&a&1&6&e&9о&x&7&f&1&b&e&cр&x&8&3&1&f&f&0т&x&8&7&2&4&f&4а&x&8&b&2&8&f&8ц&x&8&f&2&d&f&bи&x&9&3&3&1&f&fя'
+    Subtitle: '&7Пожайлуста подождите'
+    SendMessage: true
+  Teleport:
+    Title: '&x&6&6&0&0&d&6Т&x&6&9&0&4&d&9е&x&6&c&0&7&d&cл&x&7&0&0&b&d&fе&x&7&3&0&e&e&2п&x&7&6&1&2&e&5о&x&7&9&1&5&e&8р&x&7&d&1&9&e&bт&x&8&0&1&c&e&dи&x&8&3&2&0&f&0р&x&8&6&2&3&f&3о&x&8&9&2&7&f&6в&x&8&d&2&a&f&9а&x&9&0&2&e&f&cн&x&9&3&3&1&f&fы'
+    Subtitle: '&7x=%x% y=%y% z=%z%'
+    SendMessage: true
+  Delay:
+    Title: ''
+    Subtitle: '&7Телепортация через %time% секунд...'
+    SendMessage: true
+  Cancelled:
+    Title: '&cВы двинулись...'
+    Subtitle: '&7Телепортация отменена!'
+    SendMessage: true
+  Loading:
+    Title: ''
+    Subtitle: '&7Прогрузка чанков...'
+    SendMessage: true
+  Failed:
+    Title: ''
+    Subtitle: '&cFailed! No safe spots located'
+    SendMessage: false
+Particles:
+  Enabled: false
+  Type:
+  - EXPLOSION_NORMAL
+  - CRIT
+  Shape: EXPLODE
+Invincible:
+  Enabled: true
+  Seconds: 7
+Potions:
+  Enabled: true
+  Types:
+  - Blindness:60:7
+  - Invisibility:60:1

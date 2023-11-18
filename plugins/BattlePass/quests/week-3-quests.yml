@@ -1,0 +1,174 @@
+quests:
+  1: # Quest id
+    name: 'Неделя 3 - Жизнь!' # The name given to the quest.
+    type: regenerate # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: red_dye:0
+      amount: 1
+      name: '&6Жизнь!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f востановить &6100&f хп!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Неделя 3 - Дерзкий!' # The name given to the quest.
+    type: damage-player # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 600 # The amount of times the player should break the coal ore block.
+    points: 600 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: wooden_sword:0
+      amount: 1
+      name: '&6Дерзкий!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f нанести &6600&f урона по игроку!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Неделя 3 - Много опыта!' # The name given to the quest.
+    type: gain-experience # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 2000 # The amount of times the player should break the coal ore block.
+    points: 1500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: experience_bottle:0
+      amount: 1
+      name: '&6Много опыта!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f получить &62000&f опыта!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Неделя 3 - Зомби Апокалипсис!' # The name given to the quest.
+    type: kill-mob # The type of quest
+    variable: zombie # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 900 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: zombie_head:0
+      amount: 1
+      name: '&6Зомби Апокалипсис!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f убить &6100&f зомби!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Неделя 3 - Точно в цель!' # The name given to the quest.
+    type: throw-projectile # The type of quest
+    variable: arrow # The block the player must break.
+    required-progress: 500 # The amount of times the player should break the coal ore block.
+    points: 1000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: arrow:0
+      amount: 1
+      name: '&6Точно в цель!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f выстрелять &6500&f стрел!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  6:
+    name: 'Неделя 3 - Рыболов!' # The name given to the quest.
+    type: fish # The type of quest
+    variable: cod # The block the player must break.
+    required-progress: 128 # The amount of times the player should break the coal ore block.
+    points: 1100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cod:0
+      amount: 1
+      name: '&6Рыболов!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f поймать &6128&f трески!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  7:
+    name: 'Неделя 3 - Рыболов II!' # The name given to the quest.
+    type: fish # The type of quest
+    variable: salmon # The block the player must break.
+    required-progress: 128 # The amount of times the player should break the coal ore block.
+    points: 1100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: salmon:0
+      amount: 1
+      name: '&6Рыболов II!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f поймать &6128&f лосося!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  8:
+    name: 'Неделя 3 - Приготовленая рыбка!' # The name given to the quest.
+    type: smelt # The type of quest
+    variable: cooked_cod # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 1300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cooked_cod:0
+      amount: 1
+      name: '&6Приготовленая рыбка!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f приготовить &6200&f трески!'
+        - ''
+        - '&6&n▍&r &f Внимание!'
+        - '&6▍&r &f Квест защитывается только в обычной печи!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  9:
+    name: 'Неделя 3 - Как рыбачить то?' # The name given to the quest.
+    type: craft # The type of quest
+    variable: fishing_rod:0 # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 1400 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: fishing_rod:0
+      amount: 1
+      name: '&6Как рыбачить то?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сделать &6100&f удочек!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  10:
+    name: 'Неделя 3 - Пора перекусить!' # The name given to the quest.
+    type: consume # The type of quest
+    variable: cooked_cod:0 # The block the player must break.
+    required-progress: 384 # The amount of times the player should break the coal ore block.
+    points: 1700 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cooked_cod:0
+      amount: 1
+      name: '&6Пора перекусить!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сьесть &6384&f жареной трески!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''

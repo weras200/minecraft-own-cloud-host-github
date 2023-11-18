@@ -1,0 +1,676 @@
+'1': # The id of the reward
+  type: command
+  name: '&fВ жопу'
+  lore-addon:
+    - '&f> &e+1000 баланса'
+  commands:
+    - 'money give %player% 1000'
+
+'2':
+  type: command
+  name: ' rf'
+  lore-addon:
+    - '&f> &e10 слитков железа'
+  commands:
+    - 'give %player% iron_ingot 10'
+
+'3':
+  type: command # You can still use commands to give items :)
+  lore-addon:
+    - '&f> &e36 стейков'
+  commands:
+    - 'give %player% cooked_beef 36'
+
+'4':
+  type: command
+  lore-addon:
+    - '&f> &e1 яйцо призыва волка'
+  commands:
+    - 'give %player% wolf_spawn_egg 1'
+    
+'5':
+  type: command
+  lore-addon:
+    - '&f> &e1 обычный кейса с титулами'
+  commands:
+    - 'cubelets give %player% title 1'
+
+'6':
+  type: command
+  lore-addon:
+    - '&f> &eСтол Зачарований'
+  commands:
+    - 'give %player% enchanting_table 1'
+
+'7':
+  type: command
+  lore-addon:
+    - '&f> &e6 алмазов'
+  commands:
+    - 'give %player% diamond 6'
+
+'8':
+  type: command
+  lore-addon:
+    - '&f> &e32 обсидиана'
+  commands:
+    - 'give %player% obsidian 32'
+
+'9':
+  type: command
+  lore-addon:
+    - '&f> &e64 пороха'
+  commands:
+    - 'give %player% gunpowder 64'
+
+'10':
+  type: command
+  lore-addon:
+    - '&f> &e32 золотых слитка'
+  commands:
+    - 'give %player% gold_ingot 32'
+
+'11':
+  type: command
+  lore-addon:
+    - '&f> &e1 кейс с балансом'
+  commands:
+    - 'cubelets give %player% money 1'
+
+'12':
+  type: command
+  lore-addon:
+    - '&f> &e64 песка душ'
+  commands:
+    - 'give %player% soul_sand 64'
+'13':
+  type: command
+  lore-addon:
+    - '&f> &e+4000 баланса'
+  commands:
+    - 'money give %player% 4000'
+
+'14':
+  type: command
+  lore-addon:
+    - '&f> &e1 трапка'
+  commands:
+    - 'kit trapka %player% '
+
+'15':
+  type: command
+  lore-addon:
+    - '&f> &e48 стержней ифрита'
+  commands:
+    - 'give %player% blaze_rod 48 '
+
+'16':
+  type: command
+  lore-addon:
+    - '&f> &e8 слез гаста'
+  commands:
+    - 'give %player% ghast_tear 8 '
+
+'17':
+  type: command
+  lore-addon:
+    - '&f> &e64 стрелы моментального урона'
+  commands:
+    - 'give %player% tipped_arrow{Potion:"minecraft:harming"} 64 '
+
+'18':
+  type: command
+  lore-addon:
+    - '&f> &e32 динамита'
+  commands:
+    - 'give %player% tnt 32 '
+
+'19':
+  type: command
+  lore-addon:
+    - '&f> &eТотем бесмертия'
+  commands:
+    - 'give %player% totem_of_undying 1 '
+
+'20':
+  type: command
+  lore-addon:
+    - '&f> &e2 кейса с титулами'
+  commands:
+    - 'cubelets give %player% title 2 '
+
+'21':
+  type: command
+  lore-addon:
+    - '&f> &eЗелье Силы II'
+  commands:
+    - 'give %player% potion{Potion:"strong_strength"} '
+
+'22':
+  type: command
+  lore-addon:
+    - '&f> &eКнижка на Остроту V'
+  commands:
+    - 'give %player% enchanted_book{StoredEnchantments:[{id:sharpness,lvl:5}]} 1 '
+
+'23':
+  type: command
+  lore-addon:
+    - '&f> &e16 эндер-жемчугов'
+  commands:
+    - 'give %player% ender_pearl 16 '
+
+'24':
+  type: command
+  lore-addon:
+    - '&f> &e3 трапки'
+  commands:
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+
+'25':
+  type: command
+  lore-addon:
+    - '&f> &e3 кейса с титулами'
+  commands:
+    - 'cubelets give %player% title 3 '
+
+'26':
+  type: command
+  lore-addon:
+    - '&f> &e+8000 баланса'
+  commands:
+    - 'money give %player% 8000 '
+
+'27':
+  type: command
+  lore-addon:
+    - '&f> &e8 железных блоков'
+  commands:
+    - 'give %player% iron_block 8 '
+
+'28':
+  type: command
+  lore-addon:
+    - '&f> &e2 незеритовых слитка'
+  commands:
+    - 'give %player% netherite_ingot 2 '
+
+'29':
+  type: command
+  lore-addon:
+    - '&f> &e64 изумрудов'
+  commands:
+    - 'give %player% emerald 64 '
+
+'30':
+  type: command
+  lore-addon:
+    - '&f> &e32 адского нароста'
+    - '&f> &e32 стержня ифрита'
+    - '&f> &e32 сахара'
+    - '&f> &e32 светопыли'
+    - '&f> &e32 сгустка магмы'
+  commands:
+    - 'give %player% nether_wart 32 '
+    - 'give %player% blaze_rod 32 '
+    - 'give %player% sugar 32 '
+    - 'give %player% glowstone_dust 32 '
+    - 'give %player% magma_cream 32 '
+
+'31':
+  type: command
+  lore-addon:
+    - '&f> &e24 динамита'
+  commands:
+    - 'give %player% tnt 24 '
+
+'32':
+  type: command
+  lore-addon:
+    - '&f> &eКнижка на Починку'
+  commands:
+    - 'give %player% enchanted_book{StoredEnchantments:[{id:mending}]} 1 '
+
+'33':
+  type: command
+  lore-addon:
+    - '&f> &e6 кейсов с титулами'
+  commands:
+    - 'cubelets give %player% title 6 '
+
+'34':
+  type: command
+  lore-addon:
+    - '&f> &e6 трапок'
+  commands:
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+
+'35':
+  type: command
+  lore-addon:
+    - '&f> &e16 кристалов Края'
+  commands:
+    - 'give %player% end_crystal 16 '
+
+'36':
+  type: command
+  lore-addon:
+    - '&f> &e8 незеритовых лома'
+  commands:
+    - 'give %player% netherite_scrap 8 '
+
+'37':
+  type: command
+  lore-addon:
+    - '&f> &e1 Тотем Крушителя'
+  commands:
+    - 'kit talisman %player% '
+
+'38':
+  type: command
+  lore-addon:
+    - '&f> &e2 кейса с балансом'
+  commands:
+    - 'cubelets give %player% money 2 '
+
+'39':
+  type: command
+  lore-addon:
+    - '&f> &e6 незеритовых слитков'
+  commands:
+    - 'give %player% netherite_ingot 6 '
+
+'40':
+  type: command
+  lore-addon:
+    - '&f> &e8 трапок'
+    - '&f> &e1 талисман крушителя'
+    - '&f> &e12 незеритовых лома'
+  commands:
+    - 'give %player% netherite_scrap 12 '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit talisman %player% '
+
+'prem1': # The id of the reward
+  type: command
+  name: '&fВ жопу'
+  lore-addon:
+    - '&f> &e+4000 баланса'
+  commands:
+    - 'money give %player% 4000'
+
+'prem2':
+  type: command
+  name: ' rf'
+  lore-addon:
+    - '&f> &e16 алмазов'
+  commands:
+    - 'give %player% diamond 16'
+
+'prem3':
+  type: command # You can still use commands to give items :)
+  lore-addon:
+    - '&f> &e64 стейка'
+  commands:
+    - 'give %player% cooked_beef 64'
+
+'prem4':
+  type: command
+  lore-addon:
+    - '&f> &e2 яйца призыва волка'
+    - '&f> &e2 яйца призыва зомби'
+  commands:
+    - 'give %player% wolf_spawn_egg 2'
+    - 'give %player% zombie_spawn_egg 2'
+    
+'prem5':
+  type: command
+  lore-addon:
+    - '&f> &e3 обычный кейса с титулами'
+    - '&f> &e16 шматочков'
+  commands:
+    - 'si give shmatok 16 %player%'
+    - 'cubelets give %player% title 3'
+
+'prem6':
+  type: command
+  lore-addon:
+    - '&f> &e30 Блоков Лазурита'
+  commands:
+    - 'give %player% lapis_block 30'
+
+'prem7':
+  type: command
+  lore-addon:
+    - '&f> &e32 алмаза'
+  commands:
+    - 'give %player% diamond 32'
+
+'prem8':
+  type: command
+  lore-addon:
+    - '&f> &e128 обсидиана'
+  commands:
+    - 'give %player% obsidian 64'
+    - 'give %player% obsidian 64'
+
+'prem9':
+  type: command
+  lore-addon:
+    - '&f> &e192 пороха'
+  commands:
+    - 'give %player% gunpowder 64'
+    - 'give %player% gunpowder 64'
+    - 'give %player% gunpowder 64'
+
+'prem10':
+  type: command
+  lore-addon:
+    - '&f> &e64 золотых слитка'
+    - '&f> &e64 алмазов'
+    - '&f> &e1 уникальный кейс с осколками'
+  commands:
+    - 'cubelets give %player% osk 1'
+    - 'give %player% gold_ingot 64'
+    - 'give %player% diamond 64'
+
+'prem11':
+  type: command
+  lore-addon:
+    - '&f> &e5 кейсов с балансом'
+    - '&f> &e20 шматочков'
+  commands:
+    - 'si give shmatok 20 %player%'
+    - 'cubelets give %player% money 5'
+
+'prem12':
+  type: command
+  lore-addon:
+    - '&f> &e64 песка душ'
+    - '&f> &e12 Черепов визер-скелетов'
+  commands:
+    - 'give %player% soul_sand 64'
+    - 'give %player% wither_skeleton_skull 12'
+'prem13':
+  type: command
+  lore-addon:
+    - '&f> &e+8000 баланса'
+  commands:
+    - 'money give %player% 8000'
+
+'prem14':
+  type: command
+  lore-addon:
+    - '&f> &e4 трапки'
+    - '&f> &e1 Универсальный ключ'
+  commands:
+    - 'dang give %player%'
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+
+'prem15':
+  type: command
+  lore-addon:
+    - '&f> &e1 уникальный кейс с титулами'
+  commands:
+    - 'cubelets give %player% title 1'
+
+'prem16':
+  type: command
+  lore-addon:
+    - '&f> &e32 слез гаста'
+  commands:
+    - 'give %player% ghast_tear 32 '
+
+'prem17':
+  type: command
+  lore-addon:
+    - '&f> &e192 стрелы моментального урона'
+    - '&f> &e8 шматочков'
+  commands:
+    - 'si give shmatok 8 %player%'
+    - 'give %player% tipped_arrow{Potion:"minecraft:harming"} 64 '
+    - 'give %player% tipped_arrow{Potion:"minecraft:harming"} 64 '
+    - 'give %player% tipped_arrow{Potion:"minecraft:harming"} 64 '
+
+'prem18':
+  type: command
+  lore-addon:
+    - '&f> &e128 динамита'
+  commands:
+    - 'give %player% tnt 64 '
+    - 'give %player% tnt 64 '
+
+'prem19':
+  type: command
+  lore-addon:
+    - '&f> &e5 Тотемов бесмертия'
+  commands:
+    - 'give %player% totem_of_undying 5 '
+
+'prem20':
+  type: command
+  lore-addon:
+    - '&f> &e6 кейсов с титулами'
+    - '&f> &e1 уникальный кейс с осколками'
+  commands:
+    - 'cubelets give %player% osk 1'
+    - 'cubelets give %player% title 6 '
+
+'prem21':
+  type: command
+  lore-addon:
+    - '&f> &eЗелье Силы II'
+    - '&f> &eЗелье Невидимости'
+    - '&f> &e32 шматочка'
+  commands:
+    - 'si give shmatok 32 %player%'
+    - 'give %player% potion{Potion:"strong_strength"} '
+    - 'give %player% potion{Potion:"long_invisibility"}'
+
+'prem22':
+  type: command
+  lore-addon:
+    - '&f> &eКнижка на Остроту V'
+    - '&f> &eКнижка на Защиту V x4'
+  commands:
+    - 'give %player% enchanted_book{StoredEnchantments:[{id:sharpness,lvl:5}]} 1 '
+    - 'give %player% enchanted_book{StoredEnchantments:[{id:protection ,lvl:5}]} 4 '
+
+'prem23':
+  type: command
+  lore-addon:
+    - '&f> &e48 эндер-жемчугов'
+  commands:
+    - 'give %player% ender_pearl 16 '
+    - 'give %player% ender_pearl 16 '
+    - 'give %player% ender_pearl 16 '
+
+'prem24':
+  type: command
+  lore-addon:
+    - '&f> &e6 трапки'
+    - '&f> &e40 шматочков'
+  commands:
+    - 'si give shmatok 40 %player%'
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+
+'prem25':
+  type: command
+  lore-addon:
+    - '&f> &e6 кейса с титулами'
+  commands:
+    - 'cubelets give %player% title 6 '
+
+'prem26':
+  type: command
+  lore-addon:
+    - '&f> &e+16000 баланса'
+  commands:
+    - 'money give %player% 16000 '
+
+'prem27':
+  type: command
+  lore-addon:
+    - '&f> &e16 железных блоков'
+    - '&f> &e16 золотых блоков'
+    - '&f> &e16 алмазных блоков'
+  commands:
+    - 'give %player% iron_block 16 '
+    - 'give %player% gold_block 16 '
+    - 'give %player% diamond_block 16 '
+
+'prem28':
+  type: command
+  lore-addon:
+    - '&f> &e6 незеритовых слитка'
+  commands:
+    - 'give %player% netherite_ingot 6 '
+
+'prem29':
+  type: command
+  lore-addon:
+    - '&f> &e192 изумрудов'
+    - '&f> &e36 шматочков'
+  commands:
+    - 'si give shmatok 36 %player%'
+    - 'give %player% emerald 64 '
+    - 'give %player% emerald 64 '
+    - 'give %player% emerald 64 '
+
+'prem30':
+  type: command
+  lore-addon:
+    - '&f> &e1 уникальный кейс с титулами'
+    - '&f> &e1 уникальный кейс с осколками'
+  commands:
+    - 'cubelets give %player% osk 1'
+    - 'cubelets give %player% title 1'
+
+'prem31':
+  type: command
+  lore-addon:
+    - '&f> &e64 динамита'
+  commands:
+    - 'give %player% tnt 64 '
+
+'prem32':
+  type: command
+  lore-addon:
+    - '&f> &eКнижка на Починку x2'
+  commands:
+    - 'give %player% enchanted_book{StoredEnchantments:[{id:mending}]} 2 '
+
+'prem33':
+  type: command
+  lore-addon:
+    - '&f> &e12 кейсов с титулами'
+    - '&f> &e19 шматочков'
+  commands:
+    - 'si give shmatok 19 %player%'
+    - 'cubelets give %player% title 12 '
+
+'prem34':
+  type: command
+  lore-addon:
+    - '&f> &e12 трапок'
+    - '&f> &e20 шматочков'
+    - '&f> &e1 Универсальный ключ'
+  commands:
+    - 'dang give %player%'
+    - 'si give shmatok 20 %player%'
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+    - 'kit trapka %player% '
+
+'prem35':
+  type: command
+  lore-addon:
+    - '&f> &e32 кристалов Края'
+    - '&f> &e16 шматочков'
+  commands:
+    - 'si give shmatok 16 %player%'
+    - 'give %player% end_crystal 32 '
+
+'prem36':
+  type: command
+  lore-addon:
+    - '&f> &e16 незеритовых лома'
+    - '&f> &e26 шматочков'
+    - '&f> &e1 Универсальный ключ'
+  commands:
+    - 'dang give %player%'
+    - 'si give shmatok 26 %player%'
+    - 'give %player% netherite_scrap 16 '
+
+'prem37':
+  type: command
+  lore-addon:
+    - '&f> &e3 Тотема Крушителя'
+    - '&f> &e40 шматочков'
+  commands:
+    - 'si give shmatok 40 %player%'
+    - 'kit talisman %player% '
+    - 'kit talisman %player% '
+    - 'kit talisman %player% '
+
+'prem38':
+  type: command
+  lore-addon:
+    - '&f> &e6 кейса с балансом'
+    - '&f> &e16 шматочков'
+  commands:
+    - 'si give shmatok 16 %player%'
+    - 'cubelets give %player% money 6 '
+
+'prem39':
+  type: command
+  lore-addon:
+    - '&f> &e12 незеритовых слитков'
+    - '&f> &e66 шматочков'
+  commands:
+    - 'si give shmatok 66 %player%'
+    - 'give %player% netherite_ingot 12 '
+
+'prem40':
+  type: command
+  lore-addon:
+    - '&f> &e1 таинственый талисман'
+    - '&f> &e24 незеритовых лома'
+    - '&f> &e1 кейс с осколками'
+    - '&f> &e99 шматочков'
+  commands:
+    - 'si give shmatok 99 %player%'
+    - 'cubelets give %player% osk 1'
+    - 'give %player% netherite_scrap 24'
+    - 'si give tal10 1 %player%'

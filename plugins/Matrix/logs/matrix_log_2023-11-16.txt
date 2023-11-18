@@ -1,0 +1,4 @@
+(18:41:12) Matrix Enabled! Version: 6.9.5
+(18:41:54) Flexer2288 failed BadPackets check | freecam (+5) | vl:5 ping:0 tps:20.0 lp:0 component: bp.freecam ver: 1.17.x
+(18:54:43) Matrix Enabled! Version: 6.9.5
+(19:07:45) Matrix Enabled! Version: 6.9.5

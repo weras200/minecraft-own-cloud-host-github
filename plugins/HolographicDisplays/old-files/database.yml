@@ -1,0 +1,244 @@
+pvp1:
+  location: mars, 222.5, 68.5, -12.5
+  lines:
+  - '&cОСТОРОЖНО'
+  - '&fВнизу &4PVP'
+bank:
+  location: SPAWN-ANARCHY, -1.5, 119.7, 9.5
+  lines:
+  - '&#ff736fБ&#ff7a56а&#ff803eн&#ff8725к'
+alchemist:
+  location: SPAWN-ANARCHY, 16.5, 118.7, -43.5
+  lines:
+  - '&#09684eА&#138154л&#1c9a5aх&#26b460и&#30cd66м&#39e66cи&#43ff72к'
+battlepass:
+  location: SPAWN-ANARCHY, -6.5, 119.3, -17.5
+  lines:
+  - '&#ff736fБ&#ff7569о&#ff7663е&#ff785dв&#ff7a56о&#ff7b50й &#ff7d4aП&#ff7f44р&#ff803eо&#ff8238п&#ff8431у&#ff852bс&#ff8725к'
+terri:
+  location: SPAWN-ANARCHY, 10.5, 117.3, 8.5
+  lines:
+  - '&#ff736fТ&#ff785dе&#ff7d4aр&#ff8238р&#ff8725и'
+donate:
+  location: SPAWN-ANARCHY, 20.5, 123.5, -21.5
+  lines:
+  - 'Привилегии сервера:'
+  - ''
+  - '&#ffee09s&#ffbc07ᴛ&#ff8906ᴀ&#ff5704ʀ &7- &f19 руб.'
+  - '&#e30efdᴍ&#e81dcdᴇ&#ed2c9cᴛ&#f13c6cᴇ&#f64b3bᴏ&#fb5a0bʀ &7- &f49 руб.'
+  - '&#fdb75aɢ&#fdaf4dᴜ&#fca740ᴀ&#fc9f33ʀ&#fc9827ᴅ&#fc901aɪ&#fb880dᴀ&#fb8000ɴ &7-
+    &f119 руб.'
+  - '&#34fdd3ᴘ&#34fdc9ᴀ&#34fcbeʟ&#34fcb4ᴀ&#33fcaaᴅ&#33fb9fɪ&#33fb95ɴ &7- &f249 руб.'
+  - '&#fdac22ɴ&#fcaa1eᴇ&#fba81aᴏ &7- &f549 руб.'
+  - '{animation: moon.yml} &7- &f879 руб.'
+  - '{animation: magister.yml} &7- &f1239 руб.'
+  - '{animation: rocket.yml} &7- &f1759 руб.'
+  - ''
+  - '&e&nКейсы c донатом:'
+  - ''
+  - '&#ff98431 &#f87a42к&#f15d41е&#e93f3fй&#e2213eс &7- &8(&#9898984&#9898989 &#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff98433 &#f87a42к&#f15d41е&#e93f3fй&#e2213eса &7- &8(&#9898987&#9898985 &#989898р&#989898у&#989898б&#989898.&8)'
+  - '&6&nРекомендуем:'
+  - '&#ff98435 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898981&#9898982&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff984310 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898982&#9898984&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff984315 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898983&#9898986&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - ''
+  - '&fСайт: &#fbfbfbɢ&#efefefᴏ&#e3e3e3ᴏ&#d8d8d8ᴅ&#ccccccᴛ&#c0c0c0ɪ&#b4b4b4ᴍ&#a8a8a8ᴇ&#9c9c9c.&#919191ʟ&#858585ᴀ&#797979ɴ&#6d6d6dᴅ'
+diamond_private:
+  location: SPAWN-ANARCHY, -36.5, 117.8, -27.5
+  lines:
+  - '&#ffffffМ&#f7f6f6а&#efededл&#e7e5e5е&#dfdcdcн&#d7d3d3ь&#cfcacaк&#c8c2c2и&#c0b9b9й
+    &#b8b0b0п&#b0a7a7р&#a89e9eи&#a09696в&#988d8dа&#908484т'
+  - '&#ff736f2&#ff785d0 &#ff7d4ax &#ff82382&#ff87250'
+laminare_private:
+  location: SPAWN-ANARCHY, -30.5, 119.0, -30.5
+  lines:
+  - '&fДанный блок привата'
+  - '&fВы можете приобрести в '
+  - '&fУникальном магазине &#ff736f/&#ff7760u&#ff7b51s&#ff7f43h&#ff8334o&#ff8725p'
+  - '&fЗа &#ffffffО&#efededс&#dfdcdcк&#cfcacaо&#c0b9b9л&#b0a7a7к&#a09696и'
+  - ''
+  - '&6Огромный приват'
+  - '&#ff736f8&#ff785d9 &#ff7d4ax &#ff82388&#ff87259'
+magnite_private:
+  location: SPAWN-ANARCHY, -32.5, 117.8, -29.5
+  lines:
+  - '&#ffffffБ&#f6f5f5о&#edebebл&#e3e0e0ь&#dad6d6ш&#d1ccccо&#c8c2c2й &#beb7b7п&#b5adadр&#aca3a3и&#a39999в&#998e8eа&#908484т'
+  - '&#ff736f5&#ff785d9 &#ff7d4ax &#ff82385&#ff87259'
+emerald_private:
+  location: SPAWN-ANARCHY, -34.5, 117.8, -28.5
+  lines:
+  - '&#ffffffС&#f6f5f5р&#edebebе&#e3e0e0д&#dad6d6н&#d1ccccи&#c8c2c2й &#beb7b7п&#b5adadр&#aca3a3и&#a39999в&#998e8eа&#908484т'
+  - '&#ff736f3&#ff785d5 &#ff7d4ax &#ff82383&#ff87255'
+rtp:
+  location: SPAWN-ANARCHY, -12.5, 118.5, -17.5
+  lines:
+  - '&fУстал сидеть на спавне?'
+  - '&fПропиши &#ff736f/&#ff7a56r&#ff803et&#ff8725p'
+  - '&fЛибо прыгай в &#ff736fп&#ff7760о&#ff7b51р&#ff7f43т&#ff8334а&#ff8725л!'
+  - '&fПутешевствуй по открытому миру'
+auction:
+  location: SPAWN-ANARCHY, 18.5, 117.3, 6.5
+  lines:
+  - '&#ff736fА&#ff7663у&#ff7a56к&#ff7d4aц&#ff803eи&#ff8431о&#ff8725н'
+trader:
+  location: SPAWN-ANARCHY, 19.5, 117.3, 5.5
+  lines:
+  - '&#ff736fК&#ff785dу&#ff7d4aп&#ff8238е&#ff8725ц'
+commands:
+  location: SPAWN-ANARCHY, 20.5, 122.5, -13.5
+  lines:
+  - '&fОсновные Команды:'
+  - ''
+  - '&fТелепортация на ртп - &#ff736f/&#ff7a56r&#ff803et&#ff8725p'
+  - '&fОткрыть меню помощи - &#ff736f/&#ff785dh&#ff7d4ae&#ff8238l&#ff8725p'
+  - '&fПомощь по привату - &#ff736f/&#ff7663p&#ff7a56s &#ff7d4ah&#ff803ee&#ff8431l&#ff8725p'
+  - '&fПомощь по проверкам - &#ff736f/&#ff7663c&#ff7a56h&#ff7d4ae&#ff803ec&#ff8431k'
+  - '&fКинуть репорт на человека - &#ff736f/&#ff7663r&#ff7a56e&#ff7d4ap&#ff803eo&#ff8431r&#ff8725t'
+  - '&fТелепортация к игроку - &#ff736f/&#ff7a56t&#ff803ep&#ff8725a'
+  - '&fЕжедневный бонус - &#ff736f/&#ff7760d&#ff7b51a&#ff7f43i&#ff8334l&#ff8725y'
+  - '&fУникальные предметы - &#ff736f/&#ff7b51s&#ff7f43h&#ff8334o&#ff8725p'
+  - '&fКастомные крафты - &#ff736f/&#ff7568w&#ff7760a&#ff7959r&#ff7b51p &#ff7d4at&#ff7f43e&#ff813br&#ff8334r&#ff852ci'
+  - '&fОзнокомиться с донатом - &#ff736f/&#ff7663d&#ff7a56o&#ff7d4an&#ff803ea&#ff8431t&#ff8725e'
+  - '&fАукцион - &#ff736f/&#ff7d4aa&#ff8725h'
+  - '&fСпросить вопрос у Администрации - &#ff736f/&#ff7d4aa&#ff8725c'
+  - '&fВся информация о кланах - &#ff736f/&#ff785dc&#ff7d4al&#ff8238a&#ff8725n'
+  - ''
+  - '&fСайт: &#fbfbfbɢ&#efefefᴏ&#e3e3e3ᴏ&#d8d8d8ᴅ&#ccccccᴛ&#c0c0c0ɪ&#b4b4b4ᴍ&#a8a8a8ᴇ&#9c9c9c.&#919191ʟ&#858585ᴀ&#797979ɴ&#6d6d6dᴅ'
+ushops:
+  location: SPAWN-ANARCHY, 8.5, 117.5, 8.5
+  lines:
+  - '&#ff736fУ&#ff746aн&#ff7666и&#ff7761к&#ff785dа&#ff7958л&#ff7b53ь&#ff7c4fн&#ff7d4aы&#ff7e45й'
+  - '&#ff8041м&#ff813cа&#ff8238г&#ff8333а&#ff852eз&#ff862aи&#ff8725н'
+scavenge:
+  location: SPAWN-ANARCHY, 21.5, 117.3, -3.5
+  lines:
+  - '&#ff736fД&#ff785dо&#ff7d4aг&#ff8238г&#ff8725и'
+commands1:
+  location: SPAWN-ANARCHY, 258.5, 124.0, 46.5
+  lines:
+  - '&fОсновные Команды:'
+  - ''
+  - '&fТелепортация на ртп - &#ff736f/&#ff7a56r&#ff803et&#ff8725p'
+  - '&fОткрыть меню помощи - &#ff736f/&#ff785dh&#ff7d4ae&#ff8238l&#ff8725p'
+  - '&fПомощь по привату - &#ff736f/&#ff7663p&#ff7a56s &#ff7d4ah&#ff803ee&#ff8431l&#ff8725p'
+  - '&fПомощь по проверкам - &#ff736f/&#ff7663c&#ff7a56h&#ff7d4ae&#ff803ec&#ff8431k'
+  - '&fКинуть репорт на человека - &#ff736f/&#ff7663r&#ff7a56e&#ff7d4ap&#ff803eo&#ff8431r&#ff8725t'
+  - '&fТелепортация к игроку - &#ff736f/&#ff7a56t&#ff803ep&#ff8725a'
+  - '&fЕжедневный бонус - &#ff736f/&#ff7760d&#ff7b51a&#ff7f43i&#ff8334l&#ff8725y'
+  - '&fУникальные предметы - &#ff736f/&#ff7b51s&#ff7f43h&#ff8334o&#ff8725p'
+  - '&fКастомные крафты - &#ff736f/&#ff7568w&#ff7760a&#ff7959r&#ff7b51p &#ff7d4at&#ff7f43e&#ff813br&#ff8334r&#ff852ci'
+  - '&fОзнокомиться с донатом - &#ff736f/&#ff7663d&#ff7a56o&#ff7d4an&#ff803ea&#ff8431t&#ff8725e'
+  - '&fАукцион - &#ff736f/&#ff7d4aa&#ff8725h'
+  - '&fСпросить вопрос у Администрации - &#ff736f/&#ff7d4aa&#ff8725c'
+  - '&fВся информация о кланах - &#ff736f/&#ff785dc&#ff7d4al&#ff8238a&#ff8725n'
+  - ''
+  - '&fСайт: &#fbfbfbɢ&#efefefᴏ&#e3e3e3ᴏ&#d8d8d8ᴅ&#ccccccᴛ&#c0c0c0ɪ&#b4b4b4ᴍ&#a8a8a8ᴇ&#9c9c9c.&#919191ʟ&#858585ᴀ&#797979ɴ&#6d6d6dᴅ'
+donate1:
+  location: SPAWN-ANARCHY, 262.5, 125.0, 42.5
+  lines:
+  - 'Привилегии сервера:'
+  - ''
+  - '&#ffee09s&#ffbc07ᴛ&#ff8906ᴀ&#ff5704ʀ &7- &f19 руб.'
+  - '&#e30efdᴍ&#e81dcdᴇ&#ed2c9cᴛ&#f13c6cᴇ&#f64b3bᴏ&#fb5a0bʀ &7- &f49 руб.'
+  - '&#fdb75aɢ&#fdaf4dᴜ&#fca740ᴀ&#fc9f33ʀ&#fc9827ᴅ&#fc901aɪ&#fb880dᴀ&#fb8000ɴ &7-
+    &f119 руб.'
+  - '&#34fdd3ᴘ&#34fdc9ᴀ&#34fcbeʟ&#34fcb4ᴀ&#33fcaaᴅ&#33fb9fɪ&#33fb95ɴ &7- &f249 руб.'
+  - '&#fdac22ɴ&#fcaa1eᴇ&#fba81aᴏ &7- &f549 руб.'
+  - '{animation: moon.yml} &7- &f879 руб.'
+  - '{animation: magister.yml} &7- &f1239 руб.'
+  - '{animation: rocket.yml} &7- &f1759 руб.'
+  - ''
+  - '&e&nКейсы c донатом:'
+  - ''
+  - '&#ff98431 &#f87a42к&#f15d41е&#e93f3fй&#e2213eс &7- &8(&#9898984&#9898989 &#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff98433 &#f87a42к&#f15d41е&#e93f3fй&#e2213eса &7- &8(&#9898987&#9898985 &#989898р&#989898у&#989898б&#989898.&8)'
+  - '&6&nРекомендуем:'
+  - '&#ff98435 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898981&#9898982&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff984310 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898982&#9898984&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - '&#ff984315 &#f87a42к&#f15d41е&#e93f3fй&#e2213eсов &7- &8(&#9898983&#9898986&#9898989&#989898р&#989898у&#989898б&#989898.&8)'
+  - ''
+  - '&fСайт: &#fbfbfbɢ&#efefefᴏ&#e3e3e3ᴏ&#d8d8d8ᴅ&#ccccccᴛ&#c0c0c0ɪ&#b4b4b4ᴍ&#a8a8a8ᴇ&#9c9c9c.&#919191ʟ&#858585ᴀ&#797979ɴ&#6d6d6dᴅ'
+scavenge1:
+  location: SPAWN-ANARCHY, 235.5, 119.3, 44.5
+  lines:
+  - '&#ff736fД&#ff785dо&#ff7d4aг&#ff8238г&#ff8725и'
+battlepass1:
+  location: SPAWN-ANARCHY, 244.5, 123.3, 28.5
+  lines:
+  - '&#ff736fБ&#ff7569о&#ff7663е&#ff785dв&#ff7a56о&#ff7b50й &#ff7d4aП&#ff7f44р&#ff803eо&#ff8238п&#ff8431у&#ff852bс&#ff8725к'
+alchemist1:
+  location: SPAWN-ANARCHY, 231.5, 121.7, 90.5
+  lines:
+  - '&#09684eА&#138154л&#1c9a5aх&#26b460и&#30cd66м&#39e66cи&#43ff72к'
+shop:
+  location: SPAWN-ANARCHY, 236.5, 119.5, 43.5
+  lines:
+  - '&#ff736fУ&#ff746aн&#ff7666и&#ff7761к&#ff785dа&#ff7958л&#ff7b53ь&#ff7c4fн&#ff7d4aы&#ff7e45й'
+  - '&#ff8041м&#ff813cа&#ff8238г&#ff8333а&#ff852eз&#ff862aи&#ff8725н'
+quests:
+  location: SPAWN-ANARCHY, 288.5, 119.5, 85.5
+  lines:
+  - '&6Квесты'
+  - ''
+  - '&fЗдесь ты можешь выполнять'
+  - '&fуникальные квесты, и в награду получать'
+  - '&6кусочки&f, их ты можешь обменять'
+  - '&fна то что захочешь ты'
+  - ''
+  - '&fСайт: &#fbfbfbɢ&#efefefᴏ&#e3e3e3ᴏ&#d8d8d8ᴅ&#ccccccᴛ&#c0c0c0ɪ&#b4b4b4ᴍ&#a8a8a8ᴇ&#9c9c9c.&#919191ʟ&#858585ᴀ&#797979ɴ&#6d6d6dᴅ'
+fisher:
+  location: SPAWN-ANARCHY, 297.5, 120.3, 77.5
+  lines:
+  - '&#ff736fР&#ff785dы&#ff7d4aб&#ff8238а&#ff8725к'
+weaponsmith:
+  location: SPAWN-ANARCHY, 298.5, 120.3, 80.5
+  lines:
+  - '&#ff736fО&#ff7666р&#ff785dу&#ff7b53ж&#ff7d4aе&#ff8041й&#ff8238н&#ff852eи&#ff8725к'
+farmer:
+  location: SPAWN-ANARCHY, 298.5, 120.3, 85.5
+  lines:
+  - '&#ff736fФ&#ff7760е&#ff7b51р&#ff7f43м&#ff8334е&#ff8725р'
+auction1:
+  location: SPAWN-ANARCHY, 235.5, 119.3, 58.5
+  lines:
+  - '&#ff736fА&#ff7663у&#ff7a56к&#ff7d4aц&#ff803eи&#ff8431о&#ff8725н'
+trader1:
+  location: SPAWN-ANARCHY, 237.5, 119.5, 60.5
+  lines:
+  - '&#ff736fК&#ff785dу&#ff7d4aп&#ff8238е&#ff8725ц'
+tasks:
+  location: SPAWN-ANARCHY, 236.5, 119.5, 59.5
+  lines:
+  - '&#fff175С&#faf17eк&#f5f186о&#f0f18fр&#ebf297о&#e5f2a0с&#e0f2a8т&#dbf2b1н&#d6f2b9ы&#d1f2c2е'
+  - '&#ccf2caз&#c7f2d3а&#c2f3dbд&#bcf3e4а&#b7f3ecн&#b2f3f5и&#adf3fdя'
+bank1:
+  location: SPAWN-ANARCHY, 238.5, 121.3, 70.5
+  lines:
+  - '&#ff736fБ&#ff7a56а&#ff803eн&#ff8725к'
+diamond-private:
+  location: SPAWN-ANARCHY, 272.5, 118.8, 77.5
+  lines:
+  - '&#ffffffМ&#f7f6f6а&#efededл&#e7e5e5е&#dfdcdcн&#d7d3d3ь&#cfcacaк&#c8c2c2и&#c0b9b9й
+    &#b8b0b0п&#b0a7a7р&#a89e9eи&#a09696в&#988d8dа&#908484т'
+  - '&#ff736f2&#ff785d0 &#ff7d4ax &#ff82382&#ff87250'
+laminare-private:
+  location: SPAWN-ANARCHY, 274.5, 120.1, 83.5
+  lines:
+  - '&fДанный блок привата'
+  - '&fВы можете приобрести в '
+  - '&fУникальном магазине &#ff736f/&#ff7760u&#ff7b51s&#ff7f43h&#ff8334o&#ff8725p'
+  - '&fЗа &#ffffffО&#efededс&#dfdcdcк&#cfcacaо&#c0b9b9л&#b0a7a7к&#a09696и'
+  - ''
+  - '&6Огромный приват'
+  - '&#ff736f8&#ff785d9 &#ff7d4ax &#ff82388&#ff87259'
+magnite-private:
+  location: SPAWN-ANARCHY, 273.5, 118.8, 81.5
+  lines:
+  - '&#ffffffБ&#f6f5f5о&#edebebл&#e3e0e0ь&#dad6d6ш&#d1ccccо&#c8c2c2й &#beb7b7п&#b5adadр&#aca3a3и&#a39999в&#998e8eа&#908484т'
+  - '&#ff736f5&#ff785d9 &#ff7d4ax &#ff82385&#ff87259'
+emerald-private:
+  location: SPAWN-ANARCHY, 273.5, 118.8, 79.5
+  lines:
+  - '&#ffffffС&#f6f5f5р&#edebebе&#e3e0e0д&#dad6d6н&#d1ccccи&#c8c2c2й &#beb7b7п&#b5adadр&#aca3a3и&#a39999в&#998e8eа&#908484т'
+  - '&#ff736f3&#ff785d5 &#ff7d4ax &#ff82383&#ff87255'

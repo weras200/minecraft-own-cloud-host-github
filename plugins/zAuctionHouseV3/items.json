@@ -1,0 +1,8 @@
+{
+  "items": [
+    "{\n  \"seller\": \"19e9d9e1-1d9e-3e67-b17a-0c7cd2bf92e6\",\n  \"price\": 222,\n  \"expire\": 1700434124908,\n  \"sellerName\": \"Flexer2288\",\n  \"id\": \"6c013a73-827e-41a6-9da7-e2d6ce4cd974\",\n  \"economy\": \"VAULT\",\n  \"type\": \"INVENTORY\",\n  \"priority\": 0,\n  \"items\": [\n    \"H4sIAAAAAAAA/+NiYOBgYMpMYVDIzcxLTS5KTCuxSs1LzkjMK0lNiU/Pz0lJzYtPLCjISWVkYHXOL80rcWAAAPXXUiI0AAAA\"\n  ],\n  \"buyer\": null\n}"
+  ],
+  "buyingItems": [],
+  "expiredItems": [],
+  "transactions": []
+}

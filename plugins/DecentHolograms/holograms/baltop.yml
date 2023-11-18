@@ -1,0 +1,52 @@
+location: spawn:1108,497:149,000:-336,453
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#6600d6&#6600d6♮ &fТоп людей по монеткам &#6600d6&#6600d6♮'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&#6600d6#&#6600d61 &7| %ajlb_lb_vault_eco_balance_fixed_1_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_1_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_1_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d62 &7| %ajlb_lb_vault_eco_balance_fixed_2_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_2_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_2_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d63 &7| %ajlb_lb_vault_eco_balance_fixed_3_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_3_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_3_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d64 &7| %ajlb_lb_vault_eco_balance_fixed_4_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_4_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_4_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d65 &7| %ajlb_lb_vault_eco_balance_fixed_5_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_5_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_5_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d66 &7| %ajlb_lb_vault_eco_balance_fixed_6_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_6_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_6_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d67 &7| %ajlb_lb_vault_eco_balance_fixed_7_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_7_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_7_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d68 &7| %ajlb_lb_vault_eco_balance_fixed_8_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_8_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_8_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d69 &7| %ajlb_lb_vault_eco_balance_fixed_9_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_9_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_9_alltime_value%&6¤'
+    height: 0.3
+  - content: '&#6600d6#&#6600d610 &7| %ajlb_lb_vault_eco_balance_fixed_10_alltime_prefix%&f%ajlb_lb_vault_eco_balance_fixed_10_alltime_name%
+      &7- &f%ajlb_lb_vault_eco_balance_fixed_10_alltime_value%&6¤'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&fВ конце вайпа топ &a3&f получат'
+    height: 0.3
+  - content: '&fнаграду в виде осколков!'
+    height: 0.3
+  - content: '#ICON: sunflower'
+    height: 0.6
+  actions: {}

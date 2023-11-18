@@ -1,1 +1,14 @@
-[{}]
+[
+  {
+    "uuid": "000003e8-223f-21ee-a700-2eb5a363657c",
+    "name": "CMI-Fake-Operator",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "19e9d9e1-1d9e-3e67-b17a-0c7cd2bf92e6",
+    "name": "Flexer2288",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,119 @@
+menu-title: 'Задания'
+menu-rows: 6
+
+week-slots:
+  slots: '20...24' # ... is used to signify all of the ones in between. It functions the same as 11, 12, 13, 14, 15, 16, 17, 18
+
+menu:
+  '53':
+    item:
+      material: arrow:0
+      name: '&6◀ &fНазад'
+      lore:
+        - ''
+    actions:
+      - '[menu] {portal}' # If the page is 1, take them to the portal page
+  '40':
+    item:
+      material: writable_book:0
+      name: '&6Ежедневные квесты '
+      lore:
+        - ''
+        - '&7&o(( нажмите, чтобы увидеть квесты ))'
+    actions:
+      - '[menu] {daily-quests}'
+  '18':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '27':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '36':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '26':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '35':
+    item:
+     material: black_stained_glass_pane
+     name: ' ' # ничего не ставить
+  '44':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '1': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '2': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '9': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '17': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '45': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '46': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '47': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '51': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '52': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '6': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '7': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '8': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '0': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+static-items:
+  week-item:
+    material: writable_book:0
+    name: '&6Неделя %week% &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( нажмите, чтобы увидеть квесты ))'
+  locked-week-item:
+    material: writable_book:0
+    name: '&6Неделя %week% &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( нажмите, чтобы увидеть квесты ))'
+  requires-previous-completion-item: # Only used if you have require previous completion set to true in your settings.yml.
+    material: writable_book:0
+    name: '&6Неделя %week% &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( нажмите, чтобы увидеть квесты ))'

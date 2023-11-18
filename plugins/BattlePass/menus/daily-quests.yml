@@ -1,0 +1,67 @@
+menu-title: 'Ежедневные задания'
+menu-rows: 6
+
+quest-slots:
+  slots: '20...24'
+
+menu:
+  '18':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '27':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '36':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '26':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '35':
+    item:
+     material: black_stained_glass_pane
+     name: ' ' # ничего не ставить
+  '44':
+    item:
+     material: black_stained_glass_pane
+     name: ' '
+  '53':
+    item:
+     material: arrow
+     name: '&6◀ &fНазад'
+    actions:
+      - '[menu] {quest-overview}'
+  '0': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '1': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '2': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '9': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  '17': 
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  filler: # Fills all empty slots with the following item
+    slots: 45,46,47,51,52 # This will fill all empty slots. You can also do 'startslot...endslot', e.g '2...8' to fill slots 2 to 8.
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить
+  filler1: # Fills all empty slots with the following item
+    slots: 6...8 # This will fill all empty slots. You can also do 'startslot...endslot', e.g '2...8' to fill slots 2 to 8.
+    item:
+      material: orange_stained_glass_pane
+      name: ' ' # ничего не ставить

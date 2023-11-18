@@ -1,0 +1,37 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  maxZ: -411
+  tpYaw: 0
+  maxY: 140
+  maxX: 1099
+  lucky_blocks: 0
+  fillMode: false
+  lucky_commands: []
+  world: spawn
+  composition:
+    GOLD_ORE:0: 0.035
+    STONE:0: 0.315
+    GRAVEL:0: 0.15
+    DIAMOND_ORE:0: 0.015
+    COAL_ORE:0: 0.04
+    COBBLESTONE:0: 0.15
+    LAPIS_ORE:0: 0.09
+    IRON_ORE:0: 0.055
+    GRANITE:0: 0.15
+  tpY: -2147483647
+  tpX: 0
+  tpZ: 0
+  tpAtReset: false
+  resetDelay: 0
+  surface: ''
+  resetPercent: -1.0
+  structure: []
+  tpPitch: 0
+  minY: 134
+  resetWarnings: []
+  minX: 1084
+  potions: {}
+  name: default
+  resetClock: 0
+  minZ: -426
+  isSilent: false

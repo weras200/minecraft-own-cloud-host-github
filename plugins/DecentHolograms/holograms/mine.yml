@@ -1,0 +1,28 @@
+location: spawn:1084,534:144,500:-406,481
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fbd300⛏А&#fbc90bв&#fcbf17т&#fcb522о&#fdab2e-&#fda139Ш&#fe9745а&#fe8d50х&#ff835cт&#ff7967а⛏'
+    height: 0.3
+  - content: '&7'
+    height: 0.3
+  - content: '§fРедкость: §7Обычная'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&fБез лишних вопросов,'
+    height: 0.3
+  - content: '&6просто &fкопай и молчи!'
+    height: 0.3
+  - content: '&6'
+    height: 0.3
+  - content: '&fОбновление: &#fb7474%commandtimer_mine_nextExecutionFormat%'
+    height: 0.3
+  - content: '#ICON: NETHERITE_PICKAXE'
+    height: 0.6
+  actions: {}

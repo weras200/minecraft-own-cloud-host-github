@@ -1,0 +1,176 @@
+quests:
+  1: # Quest id
+    name: 'Неделя 4 - Время походить!' # The name given to the quest.
+    type: walk # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 1000 # The amount of times the player should break the coal ore block.
+    points: 400 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: snowball:0
+      amount: 1
+      name: '&6Время походить!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f пройти &61000&f блоков!'
+        - ''
+        - '&6&n▍&r &f Внимание!'
+        - '&6▍&r &f Бег защитан не будет!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Неделя 4 - Пробежка!' # The name given to the quest.
+    type: sprint # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 5000 # The amount of times the player should break the coal ore block.
+    points: 1300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: string:0
+      amount: 1
+      name: '&6Пробежка!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f пробежать &65000&f блоков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Неделя 4 - Скрытный!' # The name given to the quest.
+    type: sneak # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 500 # The amount of times the player should break the coal ore block.
+    points: 900 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: paper:0
+      amount: 1
+      name: '&6Скрытный!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f пройти на шифте &6500&f блоков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Неделя 4 - Плавец!' # The name given to the quest.
+    type: swim # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 5000 # The amount of times the player should break the coal ore block.
+    points: 1500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: heart_of_the_sea:0
+      amount: 1
+      name: '&6Плавец!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f проплыть &65000&f блоков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Неделя 4 - Еврей!' # The name given to the quest.
+    type: item-break # The type of quest
+    variable: elytra # The block the player must break.
+    required-progress: 3 # The amount of times the player should break the coal ore block.
+    points: 2000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: elytra:0
+      amount: 1
+      name: '&6Еврей!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сломать &63&f элитры!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  6:
+    name: 'Неделя 4 - Решала!' # The name given to the quest.
+    type: login # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 2100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: ender_pearl:0
+      amount: 1
+      name: '&6Решала!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f зайти &6100&f раз на сервер!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  7:
+    name: 'Неделя 4 - Октивчик!' # The name given to the quest.
+    type: playtime # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 180000 # The amount of times the player should break the coal ore block.
+    points: 3000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: clock:0
+      amount: 1
+      name: '&6Октивчик!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f отыграть &650&f часов на сервере!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' 
+        - '&7(Ты октив а райс пасив)'
+        - ''
+  8:
+    name: 'Неделя 4 - Какой час?' # The name given to the quest.
+    type: craft # The type of quest
+    variable: clock:0 # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 1300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: clock:0
+      amount: 1
+      name: '&6Какой час?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f скрафтить &6100&f часов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' 
+        - ''
+  9:
+    name: 'Неделя 4 - Снег?' # The name given to the quest.
+    type: throw-projectile # The type of quest
+    variable: snowball:0 # The block the player must break.
+    required-progress: 1000 # The amount of times the player should break the coal ore block.
+    points: 2000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: snowball:0
+      amount: 1
+      name: '&6Снег?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f кинуть &61000&f снежков!'
+        - '&7(Снежный вапроссело)'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' 
+        - ''
+  10:
+    name: 'Неделя 4 - Чё маячишь?!' # The name given to the quest.
+    type: craft # The type of quest
+    variable: beacon # The block the player must break.
+    required-progress: 10 # The amount of times the player should break the coal ore block.
+    points: 3000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: beacon:0
+      amount: 1
+      name: '&6Чё маячишь?!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f скрафтить &610&f маяков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' 
+        - ''

@@ -1,208 +1,228 @@
-[15:09:34] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:09:37] [ServerMain/INFO]: Loaded 7 recipes
-[15:09:38] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[15:09:38] [Server thread/INFO]: Loading properties
-[15:09:38] [Server thread/INFO]: This server is running CraftBukkit version 3919-Spigot-dba3cdc-e42510b (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
-[15:09:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:09:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:09:39] [Server thread/INFO]: Debug logging is disabled
-[15:09:39] [Server thread/INFO]: Default game type: SURVIVAL
-[15:09:39] [Server thread/INFO]: Generating keypair
-[15:09:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:09:39] [Server thread/INFO]: Using epoll channel type
-[15:09:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
-[15:09:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[15:09:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:09:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
-[15:09:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:09:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:09:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:09:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:09:41] [Server thread/INFO]: Preparing level "world"
-[15:09:41] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:09:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:41] [Server thread/INFO]: View Distance: 10
-[15:09:41] [Server thread/INFO]: Simulation Distance: 10
-[15:09:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:41] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:41] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:42] [Server thread/INFO]: View Distance: 10
-[15:09:42] [Server thread/INFO]: Simulation Distance: 10
-[15:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:42] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:42] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:09:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:47] [Server thread/INFO]: View Distance: 10
-[15:09:47] [Server thread/INFO]: Simulation Distance: 10
-[15:09:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:47] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:47] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:57] [Server thread/INFO]: Time elapsed: 9539 ms
-[15:09:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Server thread/INFO]: Time elapsed: 4302 ms
-[15:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[15:10:05] [Server thread/INFO]: Time elapsed: 4088 ms
-[15:10:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[15:10:05] [Server thread/WARN]: [ViaVersion] Couldn't find reflection methods/fields to access Channel from player.
-Login race condition fixer will be disabled.
- Some plugins that use ViaAPI on join event may work incorrectly.
-java.lang.NoSuchFieldException: NetworkManager
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.findField(JoinListener.java:80) ~[?:?]
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.<clinit>(JoinListener.java:50) ~[?:?]
-	at com.viaversion.viaversion.ViaVersionPlugin.onEnable(ViaVersionPlugin.java:109) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:548) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:462) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:577) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:400) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
+[00:01:43] [Server thread/INFO]: Flexer2288 issued server command: /bp
+[00:02:07] [Server thread/INFO]: Flexer2288 issued server command: /bpa reload
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the week-5 quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[00:02:07] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[00:02:07] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[00:02:07] [Server thread/INFO]: [BattlePass] Hooked into Citizens
+[00:02:07] [Server thread/INFO]: Flexer2288 issued server command: /bp
+[00:04:25] [Server thread/INFO]: Flexer2288 issued server command: /bp
+[00:05:04] [Server thread/INFO]: Flexer2288 issued server command: /bpa reload
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the week-5 quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[00:05:04] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[00:05:04] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[00:05:04] [Server thread/INFO]: [BattlePass] Hooked into Citizens
+[00:05:05] [Server thread/INFO]: Flexer2288 issued server command: /lag
+[00:05:08] [Server thread/INFO]: Flexer2288 issued server command: /bp
+[00:05:43] [Async Chat Thread - #4/INFO]: ɢ | Pʟᴜᴛᴏɴ Flexer2288 Иʜфᴏᴘмᴀция: Информация
+[00:06:55] [Server thread/INFO]: Flexer2288 issued server command: /lp user Flexer2288 meta addprefix 2 '&#d6760fB&#c6851aᴀ&#b59425ᴛ&#a5a330ᴛ&#94b23bʟ&#84c146ᴇ &#73d051P&#63df5cᴀ&#52ee67s&#42fd72s'
+[00:06:55] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:06:55] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 2 '&#d6760fB&#c6851aᴀ&#b59425ᴛ&#a5a330ᴛ&#94b23bʟ&#84c146ᴇ server=&#73d051p&#63df5cᴀ&#52ee67s&#42fd72s'
+[00:06:55] [luckperms-command-executor/WARN]: [LuckPerms] Error whilst saving user
+java.util.concurrent.ExecutionException: org.h2.jdbc.JdbcBatchUpdateException: Value too long for column "SERVER CHARACTER VARYING(36)": "U&'&#73d051p&#63df5c\\1d00&#52ee67s&#42fd72s''' (37)"; SQL statement:
+INSERT INTO `luckperms_user_permissions` (uuid, permission, `value`, server, world, expiry, contexts) VALUES(?, ?, ?, ?, ?, ?, ?) [22001-214]
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at me.lucko.luckperms.common.command.utils.StorageAssistant.save(StorageAssistant.java:79) ~[?:?]
+	at me.lucko.luckperms.common.command.utils.StorageAssistant.save(StorageAssistant.java:119) ~[?:?]
+	at me.lucko.luckperms.common.commands.generic.meta.MetaAddChatMeta.execute(MetaAddChatMeta.java:105) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.execute(GenericParentCommand.java:89) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.execute(GenericParentCommand.java:49) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:107) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:44) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:279) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:183) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:10:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[15:10:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
-[15:10:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:10:05] [Server thread/INFO]: Done (24.123s)! For help, type "help"
-[15:10:05] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[15:12:42] [User Authenticator #1/INFO]: UUID of player subhamoyGhosh is e08bc1be-f2c5-38bd-949f-fb8b9dd1263a
-[15:12:43] [Server thread/INFO]: subhamoyGhosh joined the game
-[15:12:43] [Server thread/INFO]: subhamoyGhosh[/[0:0:0:0:0:0:0:1%0]:51252] logged in with entity id 141 at ([world]17.5, 83.0, 18.5)
-[15:13:10] [Server thread/INFO]: Made subhamoyGhosh a server operator
-[15:13:20] [Server thread/INFO]: subhamoyGhosh issued server command: /gamemode creative
-[15:13:20] [Server thread/INFO]: [subhamoyGhosh: Set own game mode to Creative Mode]
-[15:14:12] [Server thread/WARN]: subhamoyGhosh moved too quickly! -12.018311805504027,-5.056851103310194,-6.257776375549014
-[15:14:58] [Server thread/INFO]: subhamoyGhosh lost connection: Disconnected
-[15:14:58] [Server thread/INFO]: subhamoyGhosh left the game
+Caused by: org.h2.jdbc.JdbcBatchUpdateException: Value too long for column "SERVER CHARACTER VARYING(36)": "U&'&#73d051p&#63df5c\\1d00&#52ee67s&#42fd72s''' (37)"; SQL statement:
+INSERT INTO `luckperms_user_permissions` (uuid, permission, `value`, server, world, expiry, contexts) VALUES(?, ?, ?, ?, ?, ?, ?) [22001-214]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1269) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.updatePermissions(SqlStorage.java:864) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.updateUserPermissions(SqlStorage.java:816) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.saveUser(SqlStorage.java:405) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$saveUser$6(Storage.java:165) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$future$1(Storage.java:98) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:06:58] [Server thread/INFO]: Flexer2288 issued server command: /lp user Flexer2288 meta addprefix 2 '&#d6760fB&#c6851aᴀ&#b59425ᴛ&#a5a330ᴛ&#94b23bʟ&#84c146ᴇ &#73d051P&#63df5cᴀ&#52ee67s&#42fd72s'
+[00:06:58] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:06:58] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 2 '&#d6760fB&#c6851aᴀ&#b59425ᴛ&#a5a330ᴛ&#94b23bʟ&#84c146ᴇ server=&#73d051p&#63df5cᴀ&#52ee67s&#42fd72s'
+[00:06:58] [luckperms-command-executor/WARN]: [LuckPerms] Error whilst saving user
+java.util.concurrent.ExecutionException: org.h2.jdbc.JdbcBatchUpdateException: Value too long for column "SERVER CHARACTER VARYING(36)": "U&'&#73d051p&#63df5c\\1d00&#52ee67s&#42fd72s''' (37)"; SQL statement:
+INSERT INTO `luckperms_user_permissions` (uuid, permission, `value`, server, world, expiry, contexts) VALUES(?, ?, ?, ?, ?, ?, ?) [22001-214]
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at me.lucko.luckperms.common.command.utils.StorageAssistant.save(StorageAssistant.java:79) ~[?:?]
+	at me.lucko.luckperms.common.command.utils.StorageAssistant.save(StorageAssistant.java:119) ~[?:?]
+	at me.lucko.luckperms.common.commands.generic.meta.MetaAddChatMeta.execute(MetaAddChatMeta.java:105) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.execute(GenericParentCommand.java:89) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.execute(GenericParentCommand.java:49) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:107) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:44) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:279) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:183) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.h2.jdbc.JdbcBatchUpdateException: Value too long for column "SERVER CHARACTER VARYING(36)": "U&'&#73d051p&#63df5c\\1d00&#52ee67s&#42fd72s''' (37)"; SQL statement:
+INSERT INTO `luckperms_user_permissions` (uuid, permission, `value`, server, world, expiry, contexts) VALUES(?, ?, ?, ?, ?, ?, ?) [22001-214]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1269) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.updatePermissions(SqlStorage.java:864) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.updateUserPermissions(SqlStorage.java:816) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.saveUser(SqlStorage.java:405) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$saveUser$6(Storage.java:165) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$future$1(Storage.java:98) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:08:05] [Async Chat Thread - #5/INFO]: ʟ | Pʟᴜᴛᴏɴ Flexer2288 Иʜфᴏᴘмᴀция: Yᴏᴜᴛᴜʙᴇ
+[00:08:21] [Server thread/INFO]: Flexer2288 issued server command: /lp user Flexer2288 meta addprefix 6 '&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lᴛ&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ'
+[00:08:21] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:08:21] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 6 '&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lᴛ&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ'
+[00:08:25] [Server thread/INFO]: Flexer2288 issued server command: /lp editor
+[00:08:51] [Server thread/INFO]: Flexer2288 issued server command: /lp applyedits HRM46POKgB
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.6.&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lᴛ&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ&f  true
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.6.'&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lᴛ&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ' true
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:08:51] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove suffix.1. &#6600d6И&#7715d3ʜ&#8829d0ф&#983eccᴏ&#a952c9ᴘ&#ba67c6м&#cb7bc3ᴀ&#db90bfц&#eca4bcи&#fdb9b9я true
+[00:09:46] [Server thread/INFO]: Flexer2288 issued server command: /lp user Flexer2288 meta addsuffix 1 &#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk
+[00:09:46] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:09:46] [luckperms-command-executor/INFO]: [LP] LOG > meta addsuffix 1 &#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk
+[00:09:51] [Server thread/INFO]: Flexer2288 issued server command: /lp editor
+[00:10:08] [Server thread/INFO]: Flexer2288 issued server command: /lp applyedits cVmloTbIem
+[00:10:08] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:10:08] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add suffix.1.&#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk  true
+[00:10:08] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:10:08] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove suffix.1.&#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk true
+[00:10:22] [Server thread/INFO]: Flexer2288 issued server command: /lp editor
+[00:10:41] [Server thread/INFO]: Flexer2288 issued server command: /lp applyedits MrV8wpeGoL
+[00:10:41] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:10:41] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add suffix.1. &#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk true
+[00:10:41] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:10:41] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove suffix.1.&#6551ffF&#7858ffr&#8c5ffeo&#9f67fen&#b36efd5&#c675fdk  true
+[00:10:47] [Async Chat Thread - #6/INFO]: ʟ | Yᴏᴜᴛᴜʙᴇ Flexer2288 Fron5k: t
+[00:11:23] [Server thread/INFO]: Flexer2288 issued server command: /p give Flexer2288 2000
+[00:11:26] [Server thread/INFO]: Flexer2288 issued server command: /p give Flexer2288 2000000
+[00:11:34] [Server thread/INFO]: Flexer2288 issued server command: /money give Flexer2288 200000000000
+[00:12:03] [Server thread/INFO]: Flexer2288 issued server command: /lp editor
+[00:12:36] [Server thread/INFO]: Flexer2288 issued server command: /lp applyedits OYII8mnw9o
+[00:12:36] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:12:36] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.6.&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lT&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ&f  true
+[00:12:36] [luckperms-command-executor/INFO]: [LP] LOG > (Flexer2288) [U] (flexer2288)
+[00:12:36] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.6.&#ff0000&lY&#ff2001&lᴏ&#fe4002&lᴜ&#fe6103&lᴛ&#fe8103&lᴜ&#fda104&lʙ&#fdc105&lᴇ&f  true
+[00:12:59] [Server thread/INFO]: Flexer2288 issued server command: /ah
+[00:13:10] [Server thread/INFO]: Flexer2288 issued server command: /zhdv addon
+[00:13:37] [Server thread/INFO]: Flexer2288 issued server command: /zauction help
+[00:13:43] [Server thread/INFO]: Flexer2288 issued server command: /zauction history
+[00:13:45] [Server thread/INFO]: Flexer2288 issued server command: /zauction history Flexer2288
+[00:13:55] [Server thread/INFO]: Flexer2288 issued server command: /zauction purge Flexer2288
+[00:13:57] [Server thread/INFO]: Flexer2288 issued server command: /zauction purge Flexer2288 1
+[00:14:00] [Server thread/INFO]: Flexer2288 issued server command: /zauction purge 1
+[00:14:02] [Server thread/INFO]: Flexer2288 issued server command: /ah
+[00:14:04] [Server thread/INFO]: Flexer2288 issued server command: /ah
+[00:14:23] [Timer-2/INFO]: [zAuctionHouseV3 v3.1.2.9] /workspaces/minecraft-own-cloud-host-github/plugins/zAuctionHouseV3/items.json successfully saved !
+[00:14:25] [Server thread/INFO]: Flexer2288 issued server command: /zah help 2
+[00:14:26] [Server thread/INFO]: Flexer2288 issued server command: /zah help
+[00:16:07] [Server thread/INFO]: Flexer2288 issued server command: /bp
+[00:16:33] [Async Chat Thread - #7/INFO]: ʟ | YᴏᴜTᴜʙᴇ Flexer2288 Fron5k: 1000
+[00:18:11] [Server thread/INFO]: Flexer2288 issued server command: /ban-ip
+[00:18:19] [Server thread/INFO]: Flexer2288 issued server command: /cmi ban Flexer2288
+[00:18:23] [Server thread/INFO]: Flexer2288 issued server command: /cmi list
+[00:18:32] [Server thread/INFO]: Flexer2288 issued server command: /baltop
+[00:18:46] [Server thread/INFO]: Flexer2288 issued server command: /rudseller
+[00:18:46] [Server thread/INFO]: Flexer2288 issued server command: /rudseller
+[00:19:06] [Server thread/INFO]: Flexer2288 issued server command: /stop
+[00:19:06] [Server thread/INFO]: [Flexer2288: Stopping the server]
+[00:19:06] [Server thread/INFO]: Stopping server
+[00:19:06] [Server thread/INFO]: [zAuctionHouseV3] Disabling zAuctionHouseV3 v3.1.2.9
+[00:19:06] [Server thread/INFO]: [zAuctionHouseV3 v3.1.2.9] === DISABLE START ===
+[00:19:06] [Server thread/INFO]: [zAuctionHouseV3 v3.1.2.9] /workspaces/minecraft-own-cloud-host-github/plugins/zAuctionHouseV3/config.json successfully saved !
+[00:19:06] [Server thread/INFO]: [zAuctionHouseV3 v3.1.2.9] /workspaces/minecraft-own-cloud-host-github/plugins/zAuctionHouseV3/items.json successfully saved !
+[00:19:06] [Server thread/INFO]: [zAuctionHouseV3 v3.1.2.9] === DISABLE DONE (1ms) ===
+[00:19:06] [Server thread/INFO]: [CMIEInjector] Disabling CMIEInjector v1.0.2.3
+[00:19:06] [Server thread/INFO]: [BattlePass] Disabling BattlePass v3.6.6
+[00:19:06] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2597)
+[00:19:06] [Server thread/INFO]: [CMI] Disabling CMI v9.6.4.1
+[00:19:06] [Server thread/INFO]: [CMI] Closed db connections
+[00:19:06] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.4
+[00:19:06] [Server thread/INFO]: [MineResetLite] Disabling MineResetLite v4.17.0
+[00:19:06] [Server thread/INFO]: [MineResetLite] MineResetLite disabled
+[00:19:06] [Server thread/INFO]: [ChatEx] Disabling ChatEx v3.0.1
+[00:19:06] [Server thread/INFO]: [ChatEx] Is now disabled!
+[00:19:06] [Server thread/INFO]: [TAB] Disabling TAB v3.1.1
+[00:19:06] [Server thread/INFO]: [TAB] Disabled in 2ms
+[00:19:06] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
+[00:19:06] [Server thread/INFO]: [ajLeaderboards] Disabling ajLeaderboards v2.7.0
+[00:19:06] [pool-102-thread-1/INFO]: [ajLeaderboards] Shutting down cache method..
+[00:19:06] [pool-102-thread-1/INFO]: [ajLeaderboards] Cache method shut down
+[00:19:06] [Server thread/INFO]: [ajLeaderboards] Killing remaining workers
+[00:19:06] [Server thread/INFO]: [ajLeaderboards] Remaining workers killed
+[00:19:06] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.7.0 disabled.
+[00:19:06] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[00:19:06] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[00:19:06] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[00:19:06] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.6
+[00:19:06] [Server thread/INFO]: [Matrix] Disabling Matrix v6.9.5
+[00:19:06] [Server thread/INFO]: [Matrix] Disabled Matrix AntiCheat.
+[00:19:06] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.46
+[00:19:06] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[00:19:06] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.1
+[00:19:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[00:19:06] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:19:06] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:19:06] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[00:19:06] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[00:19:06] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[00:19:06] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.21
+[00:19:06] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.108
+[00:19:06] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion luckperms
+[00:19:06] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin LuckPerms was disabled.
+[00:19:06] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:19:06] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:19:06] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:19:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.8.1
+[00:19:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.8.1
+[00:19:06] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[00:19:06] [Server thread/INFO]: [PostgreSQL-LIB] Disabling PostgreSQL-LIB v42.3.3
+[00:19:07] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.2
+[00:19:07] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.3.0
+[00:19:07] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[00:19:07] [Server thread/INFO]: Saving players
+[00:19:07] [Server thread/INFO]: Flexer2288 lost connection: Server closed
+[00:19:07] [Server thread/INFO]: Flexer2288 left the game
+[00:19:07] [Server thread/INFO]: Saving worlds
+[00:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:spawn
+[00:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
+[00:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:19:08] [Server thread/INFO]: Flushing Chunk IO
+[00:19:08] [Server thread/INFO]: Closing Thread Pool
+[00:19:08] [Server thread/INFO]: Closing Server

@@ -1,0 +1,74 @@
+name: "&fAdmin Remove"
+size: 54
+type: ADMIN_REMOVE
+items:
+  slots:
+    type: NONE_SLOT
+    isPermanent: true
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      unbreakable: true
+      name: "&e"
+    slots:
+  show:
+    type: SHOW_ITEM
+    slot: 22
+  back:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "&cНазад"
+    slot: 49
+  removeSilent:
+    type: ADMIN_REMOVE
+    item:
+      material: GREEN_TERRACOTTA 
+      name: "&fТихо удалить и вернуть предмет игроку"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&7» &fБесшумно: &d+"
+        - "&7» &fВернуть предмет: &c+"
+        - "&7&m-------------------------------------"
+    isSilent: true
+    isForceRemove: false
+    slot: 30
+  remove:
+    type: ADMIN_REMOVE
+    item:
+      material: LIME_TERRACOTTA 
+      name: "&fУдалить и вернуть предмет игроку"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&7» &fБесшумно: &c-"
+        - "&7» &fВернуть предмет: &d+"
+        - "&7&m-------------------------------------"
+    isSilent: false
+    isForceRemove: false
+    slot: 29
+  removeSilentForce:
+    type: ADMIN_REMOVE
+    item:
+      material: RED_TERRACOTTA 
+      name: "&fТихо удалить и забрать предмет у игрока"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&7» &fБесшумно: &d+"
+        - "&7» &fВернуть предмет: &c-"
+        - "&7&m-------------------------------------"
+    isSilent: true
+    isForceRemove: true
+    slot: 32
+  removeForce:
+    type: ADMIN_REMOVE
+    item:
+      material: ORANGE_TERRACOTTA 
+
+      name: "&fУдалить и не возвращать предмет игроку"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&7» &fБесшумно: &c-"
+        - "&7» &fВернуть предмет: &c-"
+        - "&7&m-------------------------------------"
+    isSilent: false
+    isForceRemove: true
+    slot: 33     

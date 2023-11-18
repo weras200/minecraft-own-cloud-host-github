@@ -1,0 +1,76 @@
+name: "&x&6&6&0&0&d&6A&x&6&e&0&8&d&dᴜ&x&7&5&1&0&e&4ᴄ&x&7&d&1&9&e&bᴛ&x&8&4&2&1&f&1ɪ&x&8&c&2&9&f&8ᴏ&x&9&3&3&1&f&fɴ &8| &fКатегории"
+size: 54
+type: CATEGORIES
+items:
+  slots:
+    type: NONE_SLOT
+    isPermanent: true
+    item:
+      material: purple_stained_glass_pane
+      name: "&x&7&7&0&0&f&bC&x&8&4&1&3&f&4ʏ&x&9&2&2&5&e&eʙ&x&9&f&3&8&e&7ᴇ&x&a&d&4&a&e&1ʀ&x&b&a&5&d&d&aS&x&c&7&6&f&d&3ᴘ&x&d&5&8&2&c&dᴀ&x&e&2&9&4&c&6ᴄ&x&f&0&a&7&c&0ᴇ&x&f&d&b&9&b&9X"
+    slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51 
+    - 52
+    - 53
+  back:
+    type: BACK
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkMjQwMDAwMmFkOWZiYmJkMDA2Njk0MWViNWIxYTM4NGFiOWIwZTQ4YTE3OGVlOTZlNGQxMjlhNTIwODY1NCJ9fX0="
+      name: "§x§f§f§4§e§4§eВ§x§f§9§4§e§3§fе§x§f§2§4§d§3§0р§x§e§c§4§d§2§1н§x§e§5§4§c§1§2уть§x§d§f§4§c§0§3ся"
+    slot: 49   
+  block:
+    type: CATEGORIES
+    category: "blocks"
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM5NTg5ZmEwMWZlZWEzZjFhZTkxNDdjYTVlMjVmNWZhYmNlNGVmMDhmYjczNTczMTZiZjY3ODc5YjU4OWRhZCJ9fX0="
+      name: "&fКатегория: &aБлоки"
+      lore:
+        - "&7» &fВ этой категории &6%zauctionhouse_category_item_blocks% &fпредметов."
+    slot: 20
+  weapons:
+    type: CATEGORIES
+    category: "weapons"
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFiZTdlMGRhMzhkZTkzZGJhMDY4YTQwMDExODA4ZWNjMzliYjc1N2QzZmRlZThmYjI1MTI4ZTJhMDZkZGU4NiJ9fX0="
+      name: "&fКатегория: &x&f&b&8&9&0&4С&x&f&b&9&5&0&8н&x&f&b&a&1&0&dа&x&f&c&a&d&1&1р&x&f&c&b&9&1&6я&x&f&c&c&5&1&aж&x&f&c&d&1&1&fе&x&f&d&d&d&2&3н&x&f&d&e&9&2&8и&x&f&d&f&5&2&cе"
+      lore:
+        - "&7» &fВ этой категории &6%zauctionhouse_category_item_weapons% &fпредметов."
+    slot: 21         
+  tools:
+    type: CATEGORIES
+    category: "tools"
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZjOGVmOTE1MGI1OGZlODkzMGY1YmUzYzQ4ZTIwOWE5YjViYjI3ZGM5YmZhZmU2NDVkMjRiNDkxYTU4OGU2YSJ9fX0="
+      name: "&fКатегория: &x&0&0&d&d&f&bИ&x&0&0&c&d&f&bн&x&0&0&b&c&f&bс&x&0&0&a&c&f&cт&x&0&0&9&b&f&cр&x&0&0&8&b&f&cу&x&0&0&7&a&f&cм&x&0&0&6&a&f&cе&x&0&0&5&9&f&dн&x&0&0&4&9&f&dт&x&0&0&3&8&f&dы"
+      lore:
+        - "&7» &fВ этой категории &6%zauctionhouse_category_item_tools% &fпредметов."
+    slot: 22
+  potions:
+    type: CATEGORIES
+    category: "potions"
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhM2U1Yjk2OWM3ZTgxMjIwMjMwMTY2Y2JhMGRhOGM0MDRhY2YxMDU1Njk4YzY1Y2FjODAxM2E0NGY0YjAxYyJ9fX0="
+      name: "&fКатегория: &x&f&b&0&0&e&2З&x&f&0&0&4&e&9е&x&e&4&0&7&f&0л&x&d&9&0&b&f&6ь&x&c&d&0&e&f&dя"
+      lore:
+        - "&7» &fВ этой категории &6%zauctionhouse_category_item_potions% &fпредметов."
+    slot: 23    
+  misc:
+    type: CATEGORIES
+    category: "misc"
+    item:
+      material: player_head
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhiZGM3YTFkNmNmZjc2YTkyNTU2NTJkMzE2NTUzMjI4NWFjYzNhOWQxYzBmMTJmMzljYTAwNzc2OWE3ZWExNCJ9fX0="
+      name: "&fКатегория: &x&f&b&d&3&0&0Р&x&f&b&b&7&0&eа&x&f&c&9&b&1&dз&x&f&c&8&0&2&bн&x&f&d&6&4&3&aо&x&f&d&4&8&4&8е"
+      lore:
+        - "&7» &fВ этой категории &6%zauctionhouse_category_item_misc% &fпредметов."
+    slot: 24    

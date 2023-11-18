@@ -1,0 +1,31 @@
+Commands:
+  Reload:
+    Description: Перегружает плагин
+  Clear:
+    Description: Очищает чат
+    Console: CONSOLE
+    Unknown: UNKNOWN
+Messages:
+  Commands:
+    Reload:
+      Success: '&6▶ &fПлагин перезагружен'
+    Clear:
+      Success: '&6▶ &fЧат был очищен'
+  Chat:
+    AdDetected: '&c▶ &cОшибка! &fУ вас недостаточно прав для выполнения данной команды!'
+    BlockedWord: '&c▶ &cОшибка! &fВ вашем сообщении содержится запрещёное слово!'
+    AdNotify: "&c▶ &fИгрок %player попытался написать рекламу, вот что он написал\
+      : \n&6 %message"
+    NoOneListens: '&6▶ &fТебя никто не услышал'
+  CommandResult:
+    NoPermission: '&c▶ &cОшибка! &fУ вас недостаточно прав для выполнения данной команды!'
+    WrongUsage: '&c▶ &cОшибка! &fВы ввели команду не правильно, попробуйте: &6%cmd
+      help'
+  AntiSpam:
+    Denied: '&6▶ &fПеред отправкой данного сообщения подождите &61 &fсекунду'
+  Player:
+    Join: '%prefix%displayname%suffix &ejoined the game!'
+    Kick: '%prefix%displayname%suffix &ewas kicked from the game!'
+    Quit: '%prefix%displayname%suffix &eleft the game!'
+  UpdateFound: '&a[ChatEx]&7 A new update has been found on SpigotMC. Current version:
+    %oldversion New version: %newversion'

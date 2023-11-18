@@ -1,0 +1,216 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  disable-in-worlds:
+    - disabledworld
+  header:
+  - '  %animation:sb% '
+  - '&7За нами будущее'
+  - ''
+  - '&fБесплатный донат &7- %animation:freedon%'
+  - ''
+  footer:
+  - ''
+  - '&fОнлайн-магазин: %animation:site%  '   
+  - ''
+  - '&fОбщий онлайн: &x&7&7&0&0&f&b%online%'
+  per-world:
+    world1:
+      header:
+        - "an example of world with custom"
+      footer:
+        - "header/footer and prefix/suffix"
+    world2;world3:
+      header:
+        - "This is a shared header for"
+        - "world2 and world3"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+    - disabledworld
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
+  sorting-types:
+    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+    - "PLACEHOLDER_A_TO_Z:%player%"
+  case-sensitive-sorting: true
+  disable-in-worlds:
+    - disabledworld
+  # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Unlimited-nametag-mode
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: 0.22
+    disable-in-worlds:
+      - disabledworld
+    dynamic-lines:
+      - abovename
+      - nametag #the original one, combination of tagprefix + customtagname + tagsuffix
+      - belowname
+      - another
+    static-lines:
+      myCustomLine: 0.66
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Yellow-number
+yellow-number-in-tablist:
+  enabled: false
+  value: "%ping%"
+  disable-in-worlds:
+    - disabledworld
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
+belowname-objective:
+  enabled: false
+  number: "%health%"
+  text: "&cHealth"
+  disable-in-worlds:
+    - disabledworld
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
+prevent-spectator-effect:
+  enabled: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  disable-in-worlds:
+    - disabledworld
+  bars:
+    ServerInfo:
+      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      progress: "100" # in %
+      text: "&fWebsite: &bwww.domain.com"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
+per-world-playerlist:
+  enabled: false
+  # players with tab.staff will always see all players
+  allow-bypass-permission: false
+  # players in these worlds will always see all players
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  disable-in-worlds:
+    - disabledworld
+  scoreboards:
+    scoreboard1:
+      title: "%animation:sb%"
+      lines:
+      - '&f'
+      - '&#7700fb&n▍&r &#6600d6П&#6e08ddр&#7510e4о&#7d19ebф&#8421f1и&#8c29f8л&#9331ffь'
+      - '&#7700fb&n▍&r &fНик: &7%player_name%'
+      - '&#8413f4&n▍&r &fГруппа: &f%luckperms_prefix%&7[%expirytime%&7]'
+      - '&#8413f4&n▍&r &fТитул:&f%vault_suffix%'
+      - '&f'
+      - '&#9225ee&n▍&r &#6600d6С&#6b05dbт&#700bdfа&#7510e4т&#7a16e8и&#7f1bedс&#8421f1т&#8926f6и&#8e2cfaк&#9331ffа'
+      - '&#9f38e7&n▍&r &fМонеток: &6%vault_eco_balance_fixed% ¤'
+      - '&#9f38e7&n▍&r &fОсколки: &#C570FF%playerpoints_points% ☪'
+      - '&f'
+      - '&#ad4ae1&n▍&r &#6600d6О&#6c06dbс&#710ce0т&#7712e5а&#7d19ebл&#821ff0ь&#8825f5н&#8d2bfaо&#9331ffе'
+      - '&#ad4ae1&n▍&r &fБ.Пропуск: %battlepass_pass_type%'
+      - '&#ba5dda&n▍&r &fПинг: &A%ping% ⇄'
+      - '&f'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
+ping-spoof:
+  enabled: false
+  value: 0
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Pet-name-fix
+fix-pet-names:
+  enabled: false
+
+placeholders:
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss / h:mm a]"
+  time-offset: 0
+  register-tab-expansion: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
+placeholder-output-replacements:
+  "%essentials_vanished%":
+    "yes": "&7| Vanished"
+    "no": ""
+  "%afk%":
+    true: " &o[AFK]&r"
+    false: ""
+  "%essentials_nickname%":
+    "%essentials_nickname%": "%player%" #placeholder did not parse correctly, show real name instead
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
+conditions:
+  nick: # use it with %condition:nick%
+    conditions:
+      - "%player%=%essentials_nickname%"
+    yes: "%player%"
+    no: "~%essentials_nickname%"
+
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    "%server_uptime%": 1000
+    "%server_tps_1_colored%": 1000
+    "%server_unique_joins%": 5000
+  player:
+    "%player_health%": 200
+    "%player_ping%": 1000
+    "%vault_prefix%": 1000
+  relational:
+    "%rel_factionsuuid_relation_color%": 1000
+
+# assigning groups by permission nodes instead of taking them from permission plugin
+assign-groups-by-permissions: false
+
+# if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
+# Warning! This is not sorting list and has nothing to do with sorting players in tablist!
+primary-group-finding-list:
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
+
+debug: false
+
+# https://github.com/NEZNAMY/TAB/wiki/MySQL
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

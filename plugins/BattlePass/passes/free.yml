@@ -1,0 +1,153 @@
+name: '&cНету'
+default-points-required: 100
+dont-give-premium-free-rewards: false # This will mean that premium users will not receive free rewards
+
+items:
+  doesnt-have-pass-item: # This is ONLY shown/used if you have dont-give-premium-free-rewards: true. This is used to make it so premium users can only have premium rewards.
+    material: 'yellow_stained_glass'
+    name: '&cНедоступно!'
+    lore:
+      - '&cВы можете заберать только PREMIUM награды!'
+  locked-tier-item:
+    material: 'yellow_stained_glass'
+    name: '&6Обычная награда:'
+    lore:
+      - '%lore_addon%'
+  unlocked-tier-item:
+    material: 'orange_stained_glass'
+    name: '&6Обычная награда:'
+    lore:
+      - '%lore_addon%'
+  claimed-tier-item:
+    material: 'red_stained_glass'
+    name: '&aЗабрано:'
+    lore:
+      - '%lore_addon%'
+
+tier-up-actions:
+  - '[message] {&7Вы подняли уровень &e%tier%}'
+
+tiers:
+  '0': # The tier number
+    rewards: ['0'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 100 # The amount of points the player must get to advance to the tier.
+  '1': # The tier number
+    rewards: ['1'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 150 # The amount of points the player must get to advance to the tier.
+  '2': # The tier number
+    rewards: ['2'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 200 # The amount of points the player must get to advance to the tier.
+  '3': # The tier number
+    rewards: ['3'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 250 # The amount of points the player must get to advance to the tier.
+  '4': # The tier number
+    rewards: ['4'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 300 # The amount of points the player must get to advance to the tier.
+  '5': # The tier number
+    rewards: ['5'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 350 # The amount of points the player must get to advance to the tier.
+  '6': # The tier number
+    rewards: ['6'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 400 # The amount of points the player must get to advance to the tier.
+  '7': # The tier number
+    rewards: ['7'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 450 # The amount of points the player must get to advance to the tier.
+  '8': # The tier number
+    rewards: ['8'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 500 # The amount of points the player must get to advance to the tier.
+  '9': # The tier number
+    rewards: ['9'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 500 # The amount of points the player must get to advance to the tier.
+  '10': # The tier number
+    rewards: ['10'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 550 # The amount of points the player must get to advance to the tier.
+  '11': # The tier number
+    rewards: ['11'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 600 # The amount of points the player must get to advance to the tier.
+  '12': # The tier number
+    rewards: ['12'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 650 # The amount of points the player must get to advance to the tier.
+  '13': # The tier number
+    rewards: ['13'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 650 # The amount of points the player must get to advance to the tier.
+  '14': # The tier number
+    rewards: ['14'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 650 # The amount of points the player must get to advance to the tier.
+  '15': # The tier number
+    rewards: ['15'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 700 # The amount of points the player must get to advance to the tier.
+  '16': # The tier number
+    rewards: ['16'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 700 # The amount of points the player must get to advance to the tier.
+  '17': # The tier number
+    rewards: ['17'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 700 # The amount of points the player must get to advance to the tier.
+  '18': # The tier number
+    rewards: ['18'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 750 # The amount of points the player must get to advance to the tier.
+  '19': # The tier number
+    rewards: ['19'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 800 # The amount of points the player must get to advance to the tier.
+  '20': # The tier number
+    rewards: ['20'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 850 # The amount of points the player must get to advance to the tier.
+  '21': # The tier number
+    rewards: ['21'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 900 # The amount of points the player must get to advance to the tier.
+  '22': # The tier number
+    rewards: ['22'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 950 # The amount of points the player must get to advance to the tier.
+  '23': # The tier number
+    rewards: ['23'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1000 # The amount of points the player must get to advance to the tier.
+  '24': # The tier number
+    rewards: ['24'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1100 # The amount of points the player must get to advance to the tier.
+  '25': # The tier number
+    rewards: ['25'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1150 # The amount of points the player must get to advance to the tier.
+  '26': # The tier number
+    rewards: ['26'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1200 # The amount of points the player must get to advance to the tier.
+  '27': # The tier number
+    rewards: ['27'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1250 # The amount of points the player must get to advance to the tier.
+  '28': # The tier number
+    rewards: ['28'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1300 # The amount of points the player must get to advance to the tier.
+  '29': # The tier number
+    rewards: ['29'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1350 # The amount of points the player must get to advance to the tier.
+  '30': # The tier number
+    rewards: ['30'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1400 # The amount of points the player must get to advance to the tier.
+  '31': # The tier number
+    rewards: ['31'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1450 # The amount of points the player must get to advance to the tier.
+  '32': # The tier number
+    rewards: ['32'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1500 # The amount of points the player must get to advance to the tier.
+  '33': # The tier number
+    rewards: ['33'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1550 # The amount of points the player must get to advance to the tier.
+  '34': # The tier number
+    rewards: ['34'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1600 # The amount of points the player must get to advance to the tier.
+  '35': # The tier number
+    rewards: ['35'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1650 # The amount of points the player must get to advance to the tier.
+  '36': # The tier number
+    rewards: ['36'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1700 # The amount of points the player must get to advance to the tier.
+  '37': # The tier number
+    rewards: ['37'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1750 # The amount of points the player must get to advance to the tier.
+  '38': # The tier number
+    rewards: ['38'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1800 # The amount of points the player must get to advance to the tier.
+  '39': # The tier number
+    rewards: ['39'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 1900 # The amount of points the player must get to advance to the tier.
+  '40': # The tier number
+    rewards: ['40'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 2000 # The amount of points the player must get to advance to the tier.

@@ -1,0 +1,163 @@
+quests:
+  1: # Quest id
+    name: 'Неделя 1 - Каменщик' # The name given to the quest.
+    type: block-break # The type of quest
+    variable: stone:0 # The block the player must break.
+    required-progress: 100 # The amount of times the player should break the coal ore block.
+    points: 100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cobblestone:0
+      amount: 1
+      name: '&6Каменщик'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &6100&f булыжника!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Неделя 1 - Уголь?' # The name given to the quest.
+    type: block-break # The type of quest
+    variable: coal_ore:0 # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: coal_ore:0
+      amount: 1
+      name: '&6Уголь?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &6200&f угля!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Неделя 1 - Железко' # The name given to the quest.
+    type: block-break # The type of quest
+    variable: iron_ore:0 # The block the player must break.
+    required-progress: 50 # The amount of times the player should break the coal ore block.
+    points: 300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: iron_ore:0
+      amount: 1
+      name: '&6Железко'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &650&f железной руды!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Неделя 1 - Богатство'
+    type: block-break
+    variable: gold_ore:0
+    required-progress: 60
+    points: 500
+    item:
+      material: gold_ore:0
+      name: '&6Богатство'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &660&f золотой руды!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Неделя 1 - Время алмазов'
+    type: block-break
+    variable: diamond_ore:0
+    required-progress: 40
+    points: 1200
+    item:
+      material: diamond_ore:0
+      name: '&6Время алмазов'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &640&f алмазов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  6:
+    name: 'Неделя 1 - Любимчик жителей'
+    type: block-break
+    variable: emerald_ore:0
+    required-progress: 40
+    points: 1500
+    item:
+      material: emerald_ore:0
+      name: '&6Любимчик жителей'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &640&f изумрудов!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  7:
+    name: 'Неделя 1 - Подготовка чар'
+    type: block-break
+    variable: lapis_ore:0
+    required-progress: 300
+    points: 1700
+    item:
+      material: lapis_ore:0
+      name: '&6Подготовка чар'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сломать &6100&f лазуритовой руды!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  8:
+    name: 'Неделя 1 - Грифер'
+    type: block-break
+    variable: redstone_ore:0
+    required-progress: 500
+    points: 2000
+    item:
+      material: redstone_ore:0
+      name: '&6Грифер'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сломать &6200&f редстоун руды!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)'
+        - ''
+  9:
+    name: 'Неделя 1 - Адский шахтер'
+    type: block-break
+    variable: ancient_debris:0
+    required-progress: 100
+    points: 3000
+    item:
+      material: ancient_debris:0
+      name: '&6Адский шахтер'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f добыть &6100&f древних обломков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)'
+  10:
+    name: 'Неделя 1 - Настоящий шахтер'
+    type: craft
+    variable: diamond_pickaxe:0
+    required-progress: 30
+    points: 2500
+    item:
+      material: diamond_pickaxe:0
+      name: '&6Настоящий шахтер'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f скрафтить &630&f алмазных кирок!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''

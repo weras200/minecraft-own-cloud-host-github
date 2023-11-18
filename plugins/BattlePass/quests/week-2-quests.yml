@@ -1,0 +1,180 @@
+quests:
+  1: # Quest id
+    name: 'Неделя 2 - Пшеницы много не бывает!' # The name given to the quest.
+    type: craft # The type of quest
+    variable: hay_block:0 # The block the player must break.
+    required-progress: 30 # The amount of times the player should break the coal ore block.
+    points: 200 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: hay_block:0
+      amount: 1
+      name: '&6Пшеницы много не бывает!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сделать &630&f снопов сена!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  2: # Quest id
+    name: 'Неделя 2 - Нужна еда!' # The name given to the quest.
+    type: craft # The type of quest
+    variable: bread:0 # The block the player must break.
+    required-progress: 192 # The amount of times the player should break the coal ore block.
+    points: 300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: bread:0
+      amount: 1
+      name: '&6Нужна еда!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сделать &6192&f хлеба!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  3: # Quest id
+    name: 'Неделя 2 - Картофель!' # The name given to the quest.
+    type: smelt # The type of quest
+    variable: baked_potato:0 # The block the player must break.
+    required-progress: 192 # The amount of times the player should break the coal ore block.
+    points: 500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: baked_potato:0
+      amount: 1
+      name: '&6Картофель!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f приготовить &6192&f картофеля!'
+        - ''
+        - '&6&n▍&r &f Внимание!'
+        - '&6▍&r &f Квест защитывается только в обычной печи!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  4:
+    name: 'Неделя 2 - Мало шерсти!' # The name given to the quest.
+    type: shear # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 150 # The amount of times the player should break the coal ore block.
+    points: 700 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: white_wool:0
+      amount: 1
+      name: '&6Мало шерсти!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f подстричь &6150&f раз овец!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  5:
+    name: 'Неделя 2 - Молочко!' # The name given to the quest.
+    type: milk # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 500 # The amount of times the player should break the coal ore block.
+    points: 1000 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: milk_bucket:0
+      amount: 1
+      name: '&6Молочко!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f подоить &6500&f раз коров!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  6:
+    name: 'Неделя 2 - Друг человека!' # The name given to the quest.
+    type: tame # The type of quest
+    variable: wolf # The block the player must break.
+    required-progress: 50 # The amount of times the player should break the coal ore block.
+    points: 1300 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: bone:0
+      amount: 1
+      name: '&6Друг человека!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f приручить &650&f волков!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  7:
+    name: 'Неделя 2 - Золотая пища?' # The name given to the quest.
+    type: craft # The type of quest
+    variable: golden_carrot:0 # The block the player must break.
+    required-progress: 200 # The amount of times the player should break the coal ore block.
+    points: 1500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: golden_carrot:0
+      amount: 1
+      name: '&6Золотая пища?'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сделать &6200&f золотой моркови!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  8:
+    name: 'Неделя 2 - Говядина!' # The name given to the quest.
+    type: smelt # The type of quest
+    variable: cooked_beef:0 # The block the player must break.
+    required-progress: 384 # The amount of times the player should break the coal ore block.
+    points: 1500 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cooked_beef:0
+      amount: 1
+      name: '&6Говядина!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f приготовить &6384&f говядины!'
+        - ''
+        - '&6&n▍&r &f Внимание!'
+        - '&6▍&r &f Квест защитывается только в обычной печи!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  9:
+    name: 'Неделя 2 - Кролик!' # The name given to the quest.
+    type: smelt # The type of quest
+    variable: cooked_rabbit:0 # The block the player must break.
+    required-progress: 384 # The amount of times the player should break the coal ore block.
+    points: 1700 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cooked_rabbit:0
+      amount: 1
+      name: '&6Кролик!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f приготовить &6384&f кролика!'
+        - ''
+        - '&6&n▍&r &f Внимание!'
+        - '&6▍&r &f Квест защитывается только в обычной печи!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''
+  10:
+    name: 'Неделя 2 - Сладость!' # The name given to the quest.
+    type: craft # The type of quest
+    variable: cookie:0 # The block the player must break.
+    required-progress: 384 # The amount of times the player should break the coal ore block.
+    points: 1700 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: cookie:0
+      amount: 1
+      name: '&6Сладость!'
+      lore:
+        - ''
+        - '&6&n▍&r &f Для выполнения задания вам необходимо'
+        - '&6▍&r &f сделать &6384&f печенья!'
+        - ''
+        - '&6▍&r &f Прогресс: %progress_bar% &7(&6%percentage_progress%&7)' # If you wish, you can use a progress/required (23/1000) style format instead. Take a look a bit further down for examples.
+        - ''

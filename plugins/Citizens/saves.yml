@@ -1,0 +1,649 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1973
+npc:
+  '3':
+    metadata:
+      cached-skin-uuid-name: pattyrick307
+      cached-skin-uuid: b0dc0057-1040-4b1b-ac39-acdebf2bdb08
+      nameplate-visible: 'true'
+      glowing: true
+    name: §x§f§f§a§1§0§0Т§x§f§f§b§7§2§dе§x§f§e§c§d§5§9р§x§f§e§e§2§8§6р§x§f§d§f§8§b§2и
+    uuid: 88633670-93da-416e-820d-238a5b26ab06
+    traits:
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: cab227a3-74b8-34dc-967f-6177363eb02d
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xB9IL5Gu6WfeGpLmx6ovpgVoH5V9+bpmX8e5lWG9JgbfdTac7vjy1VhowxsycaKDWabPDnDM2Tf4YI9YDEagkGJun9cWX+NO691vcgcb3vVcbtCXWhiSfATBr+wIzsTIFrxlNgfMbQqOEZrV+08Xz/RJiOHm8vo25Pk2uAlCq9c5ja88UGEYGzhYO8lDb/e3ZdcPrZwVgZLGb6/ueu07qypdDtp6xi5QDkiHPv4jmXNnTV9AjhmbRmrkd9c3MZfSRr/qph0NrA8KRSrMXGfFCFo86RZabHnfzCZX8rWUjmQlY4WDwLexidlL50GPmSvsxPFC1SHIv3MvxVF5G2qpRokcxMQsLW5Mi9uFnZuyMI0dUMBqg27UfZFr2C6W4ZpjfB/uQSst87MNrVJ4cWtubxyQUPHzM6ws1nDWkmnPLcyrzFyX10N9l1jTQC30qmtNOj3Fz9AT9eg0M3An1fKn14XwU4/onQWkO95rO/ekg2eo+6l5grQ01SNoZ75d1FLxSpaZYCZPfc1eFWL+MIBF1ZFTUBQTGokBrZjHnQy6HIW/jmnlSp+8sZT7HQ99fsu0bq24hQLi9xuCl/fEGMRG5GOl7EHAFpCD+JyyiUA2bAjrzkRFYlEbr5FwLsLsw6NDM31xteRYdGzS+XsnaC6MA0k/JzWV4HfbmVj2SjX2Lfs=
+        skinName: pattyrick307
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NzI4NTMyOTAxOCwKICAicHJvZmlsZUlkIiA6ICJiMGRjMDA1NzEwNDA0YjFiYWMzOWFjZGViZjJiZGIwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYXR0eVJpY2szMDciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMzODFkOTY5MGNlNjliZWQyOWY5MmY4ZWE3NDUyOTFlOWYwNTQxNTU5NzA4ODQ4Y2Y4MzA5M2FhZmY5MzQ3OCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: -13.300156
+        world: Spawn
+        x: '96.5'
+        y: '-3821.7519'
+        z: '87.5'
+        yaw: '-13.3002'
+        pitch: '-0.7471'
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: terri
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: smoothrotationtrait,type,location,lookclose,commandtrait,skintrait,hologramtrait,inventory,owner,sneak,mounttrait,scoreboardtrait,equipment,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: dinys15_
+      cached-skin-uuid: 9cf59b6e-82f2-466b-ab10-1d95dc44c993
+      nameplate-visible: 'false'
+      glowing: true
+    name: seller
+    uuid: 4be96e2e-a962-404a-bffb-6c5003a2855e
+    traits:
+      type: PLAYER
+      spawned: true
+      owner:
+        uuid: cab227a3-74b8-34dc-967f-6177363eb02d
+      skintrait:
+        fetchDefaultSkin: true
+        signature: M6WpZgUH1khnDdHAWiCiHaB7Gx1hw4ZHKcBl/tovsvaB+7j8KCSPmNgA0wKI1/qM2qjtTymQ8VedFNcXl3+qSu/JH1hzQCRGPpcoixRZdR3nBAMGvT/Br/lImQ7cnF7xy8Izq8Sybv+AKlEMTLRR8IJVmt4AJwScbJSmue6ZD8FFRl9pW52EHd26DyOdJ/vTPj62k+tzHNRZHI6QWwUlQjgKkeHl8bJq81+HWp8tTTd/rc+EbqcL0EudFl32PVAvs5jowV7uB5tekO+BV7A4WYjC+R5TJIn5uCbCLRoi4RBb4n7wNyFZhq/BLIBIAiPMU/g2uR8y9MiI8fvuYuT6L9kkkGmSVyJ24G74g4VYF6u/3LUWubxBMJNm5MF2JcOVKwqayEYjPdBgNEUgXrtS90fN55VDdqB4PUVdYs8rC0dH3is09Kof9xtSbwzpD+bMLl6ycSdz07R6ozbwpmsbpQTxUhHm5hapQSvkOABiG3Fem0Bw23ckpbopK5agn1qorU9tnF8aPFXSQLmV0IA7gK84grj65ZKQ2pAD79nWpz7Wr7qRb7WTRYAW4jYpwMjB+ooQih2EBJ7DPpQZA4/tWvX6nR0g86xW0t+Kawa8rdE3csg53uVACMuOA8qS9BI1URB9j5Bo+Jxic6DjdK4a3eKeTojEvkiDACJrcodq8Kg=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NzczNDQ4ODI0NywKICAicHJvZmlsZUlkIiA6ICI5Y2Y1OWI2ZTgyZjI0NjZiYWIxMDFkOTVkYzQ0Yzk5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaW55czE1XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YWNkNDAzNjc2OGQ2MzVhMTRmNjBlZTlkZGFiZDIyNDZlMDc0YzQxOTdlZDhjMzBlY2ZlMjdiMzc1MzliZjA1IgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: dinys15_
+      location:
+        bodyYaw: 10.035538
+        world: Spawn
+        x: '98.5'
+        y: '-3821.7519'
+        z: '88.5'
+        yaw: '10.0355'
+        pitch: '0.0'
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ushop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: smoothrotationtrait,type,location,commandtrait,lookclose,skintrait,inventory,owner,sneak,mounttrait,scoreboardtrait,equipment,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1973':
+    metadata:
+      glowing: true
+    name: §6§lФЕРМЕР
+    uuid: 7fd473e3-288b-470c-9683-39ba59262f3f
+    traits:
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: farm
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: -155.13846
+        world: Spawn
+        x: '1168.3553'
+        y: '142.9375'
+        z: '-414.7024'
+        yaw: '146.5635'
+        pitch: '0.0'
+    traitnames: smoothrotationtrait,skintrait,age,type,inventory,owner,mounttrait,scoreboardtrait,location,commandtrait,lookclose,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1972':
+    metadata:
+      glowing: true
+    name: §x§f§b§e§7§7§c§lА§x§f§b§d§c§6§7§lУ§x§f§c§d§2§5§3§lК§x§f§c§c§7§3§e§lЦ§x§f§c§b§c§2§9§lИ§x§f§d§b§2§1§5§lО§x§f§d§a§7§0§0§lН
+    uuid: 609b2d60-07cc-4aa4-95f8-e1569c33ca70
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ah
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: 56.29123
+        world: Spawn
+        x: '1155.0702'
+        y: '140.0'
+        z: '-325.0868'
+        yaw: '91.2912'
+        pitch: '10.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+    traitnames: smoothrotationtrait,age,type,location,commandtrait,lookclose,skintrait,hologramtrait,inventory,owner,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1971':
+    metadata:
+      glowing: true
+    name: §x§f§b§0§1§0§1§lК§x§f§b§0§c§2§8§lР§x§f§c§1§7§5§0§lА§x§f§c§2§3§7§7§lФ§x§f§d§2§e§9§f§lТ§x§f§d§3§9§c§6§lЫ
+    uuid: b10456f1-aa31-4d6e-93b6-5e786faf6030
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: crafts
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: -0.09742737
+        world: Spawn
+        x: '1168.8648'
+        y: '140.0'
+        z: '-312.4973'
+        yaw: '65.2549'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+    traitnames: smoothrotationtrait,age,type,location,commandtrait,lookclose,skintrait,hologramtrait,inventory,owner,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1970':
+    metadata:
+      glowing: true
+    name: §6§lКВЕСТЫ
+    uuid: e3ec7291-9f93-4d66-b72b-45361c5a90b0
+    traits:
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: quests
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: -89.92029
+        world: Spawn
+        x: '1175.303'
+        y: '140.0'
+        z: '-318.3789'
+        yaw: '-9.0786'
+        pitch: '0.0'
+    traitnames: smoothrotationtrait,skintrait,age,type,inventory,owner,mounttrait,scoreboardtrait,location,lookclose,commandtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1969':
+    metadata:
+      glowing: true
+    name: §x§d§8§0§0§f§b§lА§x§d§e§1§b§f§5§lЛ§x§e§4§3§5§e§f§lХ§x§e§b§5§0§e§a§lИ§x§f§1§6§b§e§4§lМ§x§f§7§8§5§d§e§lИ§x§f§d§a§0§d§8§lК
+    uuid: cdaa9b61-809f-4430-a0af-67d8dcf3ef45
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: alchemist
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: -90.80435
+        world: Spawn
+        x: '1175.1911'
+        y: '140.0'
+        z: '-333.0657'
+        yaw: '-21.2157'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+    traitnames: smoothrotationtrait,age,type,location,lookclose,commandtrait,hologramtrait,skintrait,inventory,owner,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1968':
+    metadata:
+      glowing: true
+    name: §x§6§6§0§0§d§6Н§x§7§f§1§f§d§1А§x§9§8§3§e§c§cГ§x§b§2§5§d§c§8Р§x§c§b§7§b§c§3А§x§e§4§9§a§b§eД§x§f§d§b§9§b§9Ы
+    uuid: cecc2027-aeec-4dcf-888f-01860506d535
+    traits:
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: free
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: -109.726074
+        world: Spawn
+        x: '1151.5697'
+        y: '140.0'
+        z: '-372.6131'
+        yaw: '-109.7261'
+        pitch: '0.0'
+    traitnames: hologramtrait,skintrait,age,type,inventory,owner,mounttrait,scoreboardtrait,location,commandtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1967':
+    metadata:
+      glowing: true
+    name: §x§6§6§0§0§d§6Б§x§7§c§1§a§d§2А§x§9§1§3§5§c§eТ§x§a§7§4§f§c§aТ§x§b§c§6§a§c§5Л
+      §x§d§2§8§4§c§1П§x§e§7§9§f§b§dА§x§f§d§b§9§b§9СС
+    uuid: 79f52039-e297-4e4f-9343-1a2b09056452
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: bp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: 88.18713
+        world: Spawn
+        x: '1150.5374'
+        y: '140.0'
+        z: '-389.4955'
+        yaw: '-32.2904'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+    traitnames: smoothrotationtrait,age,type,location,lookclose,commandtrait,hologramtrait,skintrait,inventory,owner,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1965':
+    name: §x§6§6§0§0§d§6К§x§8§c§2§e§c§fН§x§b§2§5§d§c§8И§x§d§7§8§b§c§0Г§x§f§d§b§9§b§9И
+    uuid: 98501372-e113-4358-897c-527ca896f76b
+    traits:
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: books
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: 46.296387
+        world: Spawn
+        x: '1083.5472'
+        y: '142.0'
+        z: '-398.5878'
+        yaw: '-37.1846'
+        pitch: '0.0'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: smoothrotationtrait,age,type,location,commandtrait,lookclose,skintrait,hologramtrait,inventory,owner,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1964':
+    name: §x§6§6§0§0§d§6Б§x§9§8§3§e§c§cО§x§c§b§7§b§c§3Р§x§f§d§b§9§b§9Я
+    uuid: 93b8696c-99b5-4f33-9abf-c45e69346da1
+    traits:
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: rudseller
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 922c3b33-0056-3f6b-b692-31dfe314f25c
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: -254.51855
+        world: Spawn
+        x: '1104.1869'
+        y: '142.0'
+        z: '-405.5827'
+        yaw: '-119.5663'
+        pitch: '0.0'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: hologramtrait,skintrait,age,type,inventory,owner,mounttrait,scoreboardtrait,location,commandtrait,lookclose,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
